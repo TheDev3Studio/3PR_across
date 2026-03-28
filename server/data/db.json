@@ -7015,6 +7015,2726 @@
         "availability": "In Stock"
       },
       "createdAt": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "cement-opc-53",
+      "name": "BuildStrong OPC 53 Grade Cement",
+      "category": "Cement",
+      "shortDescription": "High-strength OPC cement for RCC and structural work.",
+      "description": "Premium OPC 53 grade cement suitable for high-rise structures, beams, columns, and slabs. Delivers consistent early and long-term strength.",
+      "specs": [
+        "Grade: OPC 53",
+        "Bag Size: 50kg",
+        "Shelf Life: 3 months"
+      ],
+      "priceMin": 380,
+      "priceMax": 420,
+      "unit": "per bag",
+      "image": "https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "cement-ppc-premium",
+      "name": "EcoMix PPC Cement",
+      "category": "Cement",
+      "shortDescription": "Durable and eco-friendly PPC cement for masonry and plaster.",
+      "description": "Pozzolana blended cement designed for smooth finish and improved workability, ideal for plastering and masonry jobs.",
+      "specs": [
+        "Type: PPC",
+        "Bag Size: 50kg",
+        "Low heat hydration"
+      ],
+      "priceMin": 340,
+      "priceMax": 390,
+      "unit": "per bag",
+      "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "hand-hammer-fiberglass",
+      "name": "FiberGrip Claw Hammer 16oz",
+      "category": "Hand Tools",
+      "shortDescription": "Shock-absorbing hammer for daily carpentry use.",
+      "description": "Durable forged steel claw hammer with anti-slip fiberglass handle for framing, nailing, and dismantling tasks.",
+      "specs": [
+        "Weight: 16oz",
+        "Handle: Fiberglass",
+        "Grip: Anti-slip"
+      ],
+      "priceMin": 360,
+      "priceMax": 480,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1581147036324-cbe1f5e2d3f1?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "hand-spirit-level-24",
+      "name": "Precision Spirit Level 24 inch",
+      "category": "Hand Tools",
+      "shortDescription": "Accurate leveling tool for tile and masonry alignment.",
+      "description": "Aluminum body spirit level with high-visibility vials for horizontal and vertical precision alignment.",
+      "specs": [
+        "Length: 24 inch",
+        "Material: Aluminum",
+        "Vials: 3"
+      ],
+      "priceMin": 520,
+      "priceMax": 690,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1609205807107-e8ec2120f7c2?auto=format&fit=crop&w=900&q=80",
+      "featured": false
+    },
+    {
+      "id": "power-drill-13mm",
+      "name": "TorqueMax Impact Drill 13mm",
+      "category": "Power Tools",
+      "shortDescription": "High-performance impact drill for concrete and steel.",
+      "description": "650W variable speed drill with reverse mode and hammer function designed for demanding site operations.",
+      "specs": [
+        "Power: 650W",
+        "Chuck: 13mm",
+        "Speed: 0-2800 RPM"
+      ],
+      "priceMin": 2990,
+      "priceMax": 3490,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "power-grinder-4inch",
+      "name": "CutPro Angle Grinder 4 inch",
+      "category": "Power Tools",
+      "shortDescription": "Compact grinder for cutting, grinding and polishing.",
+      "description": "Heavy duty 850W grinder with side handle support and safety guard for fabrication and finishing tasks.",
+      "specs": [
+        "Disc Size: 100mm",
+        "Power: 850W",
+        "No Load Speed: 11000 RPM"
+      ],
+      "priceMin": 2450,
+      "priceMax": 2990,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1586864387789-628af9feed72?auto=format&fit=crop&w=900&q=80",
+      "featured": false
+    },
+    {
+      "id": "plumb-pvc-pipe-1in",
+      "name": "HydroFlow PVC Pipe 1 inch",
+      "category": "Plumbing",
+      "shortDescription": "Pressure-rated PVC pipe for home and site plumbing.",
+      "description": "Leak-resistant uPVC pipe suitable for water lines, drainage systems, and utility runs.",
+      "specs": [
+        "Diameter: 1 inch",
+        "Length: 3m",
+        "Pressure: 6 kg/cm2"
+      ],
+      "priceMin": 210,
+      "priceMax": 290,
+      "unit": "per length",
+      "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "plumb-angle-valve-brass",
+      "name": "Brass Angle Valve Premium",
+      "category": "Plumbing",
+      "shortDescription": "Corrosion resistant angle valve for bathrooms and kitchens.",
+      "description": "Quarter-turn brass angle valve with chrome finish for smooth control and long life.",
+      "specs": [
+        "Material: Brass",
+        "Finish: Chrome",
+        "Inlet: 1/2 inch"
+      ],
+      "priceMin": 260,
+      "priceMax": 410,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=80",
+      "featured": false
+    },
+    {
+      "id": "safety-helmet-abs",
+      "name": "SecureSite ABS Safety Helmet",
+      "category": "Safety Gear",
+      "shortDescription": "Lightweight industrial helmet with adjustable harness.",
+      "description": "ISI-style construction helmet engineered for impact protection and all-day comfort.",
+      "specs": [
+        "Material: ABS",
+        "Weight: 350g",
+        "Harness: 6-point"
+      ],
+      "priceMin": 240,
+      "priceMax": 390,
+      "unit": "per piece",
+      "image": "https://images.unsplash.com/photo-1621955964441-c173e01c135b?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "safety-gloves-cutresist",
+      "name": "CutShield Safety Gloves",
+      "category": "Safety Gear",
+      "shortDescription": "Cut-resistant gloves for fabrication and handling jobs.",
+      "description": "Breathable and high-grip gloves for improved protection while handling sharp edges and materials.",
+      "specs": [
+        "Cut Level: 4",
+        "Sizes: M/L/XL",
+        "Material: HPPE blend"
+      ],
+      "priceMin": 190,
+      "priceMax": 320,
+      "unit": "per pair",
+      "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=900&q=80",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-1",
+      "name": "Hand Tools Pro Series 1",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 1 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 170,
+      "priceMax": 245,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-1/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-2",
+      "name": "Power Tools Pro Series 2",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 2 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 190,
+      "priceMax": 270,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-2/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-3",
+      "name": "Plumbing Pro Series 3",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 3 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 210,
+      "priceMax": 295,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-3/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-4",
+      "name": "Safety Gear Pro Series 4",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 4 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 230,
+      "priceMax": 320,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-4/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-5",
+      "name": "Cement Pro Series 5",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 5 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 250,
+      "priceMax": 345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-5/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-6",
+      "name": "Hand Tools Pro Series 6",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 6 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 270,
+      "priceMax": 370,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-6/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-7",
+      "name": "Power Tools Pro Series 7",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 7 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 290,
+      "priceMax": 395,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-7/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-plumbing-8",
+      "name": "Plumbing Pro Series 8",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 8 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 310,
+      "priceMax": 420,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-8/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-9",
+      "name": "Safety Gear Pro Series 9",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 9 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 330,
+      "priceMax": 445,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-9/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-10",
+      "name": "Cement Pro Series 10",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 10 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 350,
+      "priceMax": 470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-10/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-11",
+      "name": "Hand Tools Pro Series 11",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 11 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 370,
+      "priceMax": 495,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-11/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-12",
+      "name": "Power Tools Pro Series 12",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 12 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 390,
+      "priceMax": 520,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-12/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-13",
+      "name": "Plumbing Pro Series 13",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 13 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 410,
+      "priceMax": 545,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-13/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-14",
+      "name": "Safety Gear Pro Series 14",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 14 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 430,
+      "priceMax": 570,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-14/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-15",
+      "name": "Cement Pro Series 15",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 15 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 450,
+      "priceMax": 595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-15/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-16",
+      "name": "Hand Tools Pro Series 16",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 16 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 470,
+      "priceMax": 620,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-16/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-17",
+      "name": "Power Tools Pro Series 17",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 17 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 490,
+      "priceMax": 645,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-17/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-18",
+      "name": "Plumbing Pro Series 18",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 18 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 510,
+      "priceMax": 670,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-18/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-19",
+      "name": "Safety Gear Pro Series 19",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 19 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 530,
+      "priceMax": 695,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-19/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-20",
+      "name": "Cement Pro Series 20",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 20 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 550,
+      "priceMax": 720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-20/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-21",
+      "name": "Hand Tools Pro Series 21",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 21 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 570,
+      "priceMax": 745,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-21/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-power-tools-22",
+      "name": "Power Tools Pro Series 22",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 22 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 590,
+      "priceMax": 770,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-22/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-23",
+      "name": "Plumbing Pro Series 23",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 23 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 610,
+      "priceMax": 795,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-23/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-24",
+      "name": "Safety Gear Pro Series 24",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 24 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 630,
+      "priceMax": 820,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-24/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-25",
+      "name": "Cement Pro Series 25",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 25 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 650,
+      "priceMax": 845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-25/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-26",
+      "name": "Hand Tools Pro Series 26",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 26 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 670,
+      "priceMax": 870,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-26/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-27",
+      "name": "Power Tools Pro Series 27",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 27 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 690,
+      "priceMax": 895,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-27/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-28",
+      "name": "Plumbing Pro Series 28",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 28 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 710,
+      "priceMax": 920,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-28/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-safety-gear-29",
+      "name": "Safety Gear Pro Series 29",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 29 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 730,
+      "priceMax": 945,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-29/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-30",
+      "name": "Cement Pro Series 30",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 30 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 750,
+      "priceMax": 970,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-30/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-31",
+      "name": "Hand Tools Pro Series 31",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 31 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 770,
+      "priceMax": 995,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-31/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-32",
+      "name": "Power Tools Pro Series 32",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 32 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 790,
+      "priceMax": 1020,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-32/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-33",
+      "name": "Plumbing Pro Series 33",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 33 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 810,
+      "priceMax": 1045,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-33/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-34",
+      "name": "Safety Gear Pro Series 34",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 34 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 830,
+      "priceMax": 1070,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-34/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-35",
+      "name": "Cement Pro Series 35",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 35 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 850,
+      "priceMax": 1095,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-35/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-hand-tools-36",
+      "name": "Hand Tools Pro Series 36",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 36 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 870,
+      "priceMax": 1120,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-36/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-37",
+      "name": "Power Tools Pro Series 37",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 37 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 890,
+      "priceMax": 1145,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-37/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-38",
+      "name": "Plumbing Pro Series 38",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 38 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 910,
+      "priceMax": 1170,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-38/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-39",
+      "name": "Safety Gear Pro Series 39",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 39 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 930,
+      "priceMax": 1195,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-39/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-40",
+      "name": "Cement Pro Series 40",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 40 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 950,
+      "priceMax": 1220,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-40/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-41",
+      "name": "Hand Tools Pro Series 41",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 41 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 970,
+      "priceMax": 1245,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-41/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-42",
+      "name": "Power Tools Pro Series 42",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 42 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 990,
+      "priceMax": 1270,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-42/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-plumbing-43",
+      "name": "Plumbing Pro Series 43",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 43 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1010,
+      "priceMax": 1295,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-43/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-44",
+      "name": "Safety Gear Pro Series 44",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 44 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1030,
+      "priceMax": 1320,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-44/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-45",
+      "name": "Cement Pro Series 45",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 45 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1050,
+      "priceMax": 1345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-45/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-46",
+      "name": "Hand Tools Pro Series 46",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 46 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1070,
+      "priceMax": 1370,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-46/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-47",
+      "name": "Power Tools Pro Series 47",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 47 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1090,
+      "priceMax": 1395,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-47/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-48",
+      "name": "Plumbing Pro Series 48",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 48 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1110,
+      "priceMax": 1420,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-48/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-49",
+      "name": "Safety Gear Pro Series 49",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 49 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1130,
+      "priceMax": 1445,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-49/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-50",
+      "name": "Cement Pro Series 50",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 50 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1150,
+      "priceMax": 1470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-50/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-51",
+      "name": "Hand Tools Pro Series 51",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 51 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1170,
+      "priceMax": 1495,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-51/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-52",
+      "name": "Power Tools Pro Series 52",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 52 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1190,
+      "priceMax": 1520,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-52/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-53",
+      "name": "Plumbing Pro Series 53",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 53 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1210,
+      "priceMax": 1545,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-53/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-54",
+      "name": "Safety Gear Pro Series 54",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 54 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1230,
+      "priceMax": 1570,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-54/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-55",
+      "name": "Cement Pro Series 55",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 55 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1250,
+      "priceMax": 1595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-55/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-56",
+      "name": "Hand Tools Pro Series 56",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 56 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1270,
+      "priceMax": 1620,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-56/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-power-tools-57",
+      "name": "Power Tools Pro Series 57",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 57 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1290,
+      "priceMax": 1645,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-57/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-58",
+      "name": "Plumbing Pro Series 58",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 58 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1310,
+      "priceMax": 1670,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-58/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-59",
+      "name": "Safety Gear Pro Series 59",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 59 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1330,
+      "priceMax": 1695,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-59/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-60",
+      "name": "Cement Pro Series 60",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 60 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1350,
+      "priceMax": 1720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-60/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-61",
+      "name": "Hand Tools Pro Series 61",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 61 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1370,
+      "priceMax": 1745,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-61/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-62",
+      "name": "Power Tools Pro Series 62",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 62 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1390,
+      "priceMax": 1770,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-62/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-63",
+      "name": "Plumbing Pro Series 63",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 63 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1410,
+      "priceMax": 1795,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-63/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-safety-gear-64",
+      "name": "Safety Gear Pro Series 64",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 64 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1430,
+      "priceMax": 1820,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-64/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-65",
+      "name": "Cement Pro Series 65",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 65 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1450,
+      "priceMax": 1845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-65/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-66",
+      "name": "Hand Tools Pro Series 66",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 66 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1470,
+      "priceMax": 1870,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-66/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-67",
+      "name": "Power Tools Pro Series 67",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 67 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1490,
+      "priceMax": 1895,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-67/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-68",
+      "name": "Plumbing Pro Series 68",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 68 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1510,
+      "priceMax": 1920,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-68/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-69",
+      "name": "Safety Gear Pro Series 69",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 69 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1530,
+      "priceMax": 1945,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-69/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-70",
+      "name": "Cement Pro Series 70",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 70 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1550,
+      "priceMax": 1970,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-70/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-hand-tools-71",
+      "name": "Hand Tools Pro Series 71",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 71 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1570,
+      "priceMax": 1995,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-71/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-72",
+      "name": "Power Tools Pro Series 72",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 72 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1590,
+      "priceMax": 2020,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-72/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-73",
+      "name": "Plumbing Pro Series 73",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 73 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1610,
+      "priceMax": 2045,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-73/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-74",
+      "name": "Safety Gear Pro Series 74",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 74 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1630,
+      "priceMax": 2070,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-74/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-75",
+      "name": "Cement Pro Series 75",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 75 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1650,
+      "priceMax": 2095,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-75/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-76",
+      "name": "Hand Tools Pro Series 76",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 76 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1670,
+      "priceMax": 2120,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-76/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-77",
+      "name": "Power Tools Pro Series 77",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 77 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1690,
+      "priceMax": 2145,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-77/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-plumbing-78",
+      "name": "Plumbing Pro Series 78",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 78 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1710,
+      "priceMax": 2170,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-78/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-79",
+      "name": "Safety Gear Pro Series 79",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 79 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1730,
+      "priceMax": 2195,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-79/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-80",
+      "name": "Cement Pro Series 80",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 80 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1750,
+      "priceMax": 2220,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-80/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-81",
+      "name": "Hand Tools Pro Series 81",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 81 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1770,
+      "priceMax": 2245,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-81/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-82",
+      "name": "Power Tools Pro Series 82",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 82 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1790,
+      "priceMax": 2270,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-82/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-83",
+      "name": "Plumbing Pro Series 83",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 83 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1810,
+      "priceMax": 2295,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-83/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-84",
+      "name": "Safety Gear Pro Series 84",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 84 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1830,
+      "priceMax": 2320,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-84/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-85",
+      "name": "Cement Pro Series 85",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 85 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1850,
+      "priceMax": 2345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-85/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-86",
+      "name": "Hand Tools Pro Series 86",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 86 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1870,
+      "priceMax": 2370,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-86/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-87",
+      "name": "Power Tools Pro Series 87",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 87 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1890,
+      "priceMax": 2395,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-87/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-88",
+      "name": "Plumbing Pro Series 88",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 88 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1910,
+      "priceMax": 2420,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-88/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-89",
+      "name": "Safety Gear Pro Series 89",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 89 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1930,
+      "priceMax": 2445,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-89/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-90",
+      "name": "Cement Pro Series 90",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 90 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1950,
+      "priceMax": 2470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-90/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-91",
+      "name": "Hand Tools Pro Series 91",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 91 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1970,
+      "priceMax": 2495,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-91/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-power-tools-92",
+      "name": "Power Tools Pro Series 92",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 92 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1990,
+      "priceMax": 2520,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-92/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-93",
+      "name": "Plumbing Pro Series 93",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 93 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2010,
+      "priceMax": 2545,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-93/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-94",
+      "name": "Safety Gear Pro Series 94",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 94 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2030,
+      "priceMax": 2570,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-94/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-95",
+      "name": "Cement Pro Series 95",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 95 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2050,
+      "priceMax": 2595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-95/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-96",
+      "name": "Hand Tools Pro Series 96",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 96 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2070,
+      "priceMax": 2620,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-96/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-97",
+      "name": "Power Tools Pro Series 97",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 97 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2090,
+      "priceMax": 2645,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-97/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-98",
+      "name": "Plumbing Pro Series 98",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 98 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2110,
+      "priceMax": 2670,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-98/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-safety-gear-99",
+      "name": "Safety Gear Pro Series 99",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 99 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2130,
+      "priceMax": 2695,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-99/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-100",
+      "name": "Cement Pro Series 100",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 100 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2150,
+      "priceMax": 2720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-100/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-101",
+      "name": "Hand Tools Pro Series 101",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 101 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2170,
+      "priceMax": 2745,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-101/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-102",
+      "name": "Power Tools Pro Series 102",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 102 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2190,
+      "priceMax": 2770,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-102/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-103",
+      "name": "Plumbing Pro Series 103",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 103 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2210,
+      "priceMax": 2795,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-103/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-104",
+      "name": "Safety Gear Pro Series 104",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 104 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2230,
+      "priceMax": 2820,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-104/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-105",
+      "name": "Cement Pro Series 105",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 105 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2250,
+      "priceMax": 2845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-105/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-hand-tools-106",
+      "name": "Hand Tools Pro Series 106",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 106 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2270,
+      "priceMax": 2870,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-106/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-107",
+      "name": "Power Tools Pro Series 107",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 107 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2290,
+      "priceMax": 2895,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-107/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-108",
+      "name": "Plumbing Pro Series 108",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 108 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2310,
+      "priceMax": 2920,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-108/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-109",
+      "name": "Safety Gear Pro Series 109",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 109 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2330,
+      "priceMax": 2945,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-109/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-110",
+      "name": "Cement Pro Series 110",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 110 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2350,
+      "priceMax": 2970,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-110/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-111",
+      "name": "Hand Tools Pro Series 111",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 111 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2370,
+      "priceMax": 2995,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-111/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-112",
+      "name": "Power Tools Pro Series 112",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 112 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2390,
+      "priceMax": 3020,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-112/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-plumbing-113",
+      "name": "Plumbing Pro Series 113",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 113 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2410,
+      "priceMax": 3045,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-113/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-114",
+      "name": "Safety Gear Pro Series 114",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 114 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2430,
+      "priceMax": 3070,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-114/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-115",
+      "name": "Cement Pro Series 115",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 115 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2450,
+      "priceMax": 3095,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-115/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-116",
+      "name": "Hand Tools Pro Series 116",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 116 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2470,
+      "priceMax": 3120,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-116/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-117",
+      "name": "Power Tools Pro Series 117",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 117 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2490,
+      "priceMax": 3145,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-117/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-118",
+      "name": "Plumbing Pro Series 118",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 118 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2510,
+      "priceMax": 3170,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-118/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-119",
+      "name": "Safety Gear Pro Series 119",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 119 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2530,
+      "priceMax": 3195,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-119/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-120",
+      "name": "Cement Pro Series 120",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 120 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2550,
+      "priceMax": 3220,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-120/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-121",
+      "name": "Hand Tools Pro Series 121",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 121 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2570,
+      "priceMax": 3245,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-121/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-122",
+      "name": "Power Tools Pro Series 122",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 122 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2590,
+      "priceMax": 3270,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-122/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-123",
+      "name": "Plumbing Pro Series 123",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 123 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2610,
+      "priceMax": 3295,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-123/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-124",
+      "name": "Safety Gear Pro Series 124",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 124 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2630,
+      "priceMax": 3320,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-124/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-125",
+      "name": "Cement Pro Series 125",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 125 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2650,
+      "priceMax": 3345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-125/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-126",
+      "name": "Hand Tools Pro Series 126",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 126 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2670,
+      "priceMax": 3370,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-126/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-power-tools-127",
+      "name": "Power Tools Pro Series 127",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 127 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2690,
+      "priceMax": 3395,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-127/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-128",
+      "name": "Plumbing Pro Series 128",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 128 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2710,
+      "priceMax": 3420,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-128/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-129",
+      "name": "Safety Gear Pro Series 129",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 129 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2730,
+      "priceMax": 3445,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-129/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-130",
+      "name": "Cement Pro Series 130",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 130 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2750,
+      "priceMax": 3470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-130/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-131",
+      "name": "Hand Tools Pro Series 131",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 131 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2770,
+      "priceMax": 3495,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-131/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-132",
+      "name": "Power Tools Pro Series 132",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 132 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2790,
+      "priceMax": 3520,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-132/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-133",
+      "name": "Plumbing Pro Series 133",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 133 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2810,
+      "priceMax": 3545,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-133/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-safety-gear-134",
+      "name": "Safety Gear Pro Series 134",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 134 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2830,
+      "priceMax": 3570,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-134/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-135",
+      "name": "Cement Pro Series 135",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 135 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2850,
+      "priceMax": 3595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-135/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-136",
+      "name": "Hand Tools Pro Series 136",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 136 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2870,
+      "priceMax": 3620,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-136/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-137",
+      "name": "Power Tools Pro Series 137",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 137 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2890,
+      "priceMax": 3645,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-137/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-138",
+      "name": "Plumbing Pro Series 138",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 138 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2910,
+      "priceMax": 3670,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-138/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-139",
+      "name": "Safety Gear Pro Series 139",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 139 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2930,
+      "priceMax": 3695,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-139/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-140",
+      "name": "Cement Pro Series 140",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 140 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2950,
+      "priceMax": 3720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-140/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-hand-tools-141",
+      "name": "Hand Tools Pro Series 141",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 141 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2970,
+      "priceMax": 3745,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-141/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-142",
+      "name": "Power Tools Pro Series 142",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 142 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2990,
+      "priceMax": 3770,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-142/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-plumbing-143",
+      "name": "Plumbing Pro Series 143",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 143 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3010,
+      "priceMax": 3795,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-143/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-144",
+      "name": "Safety Gear Pro Series 144",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 144 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3030,
+      "priceMax": 3820,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-144/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-145",
+      "name": "Cement Pro Series 145",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 145 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3050,
+      "priceMax": 3845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-145/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-hand-tools-146",
+      "name": "Hand Tools Pro Series 146",
+      "category": "Hand Tools",
+      "shortDescription": "Reliable hand tools product designed for site performance.",
+      "description": "Mock catalog item 146 for Hand Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3070,
+      "priceMax": 3870,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-146/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-power-tools-147",
+      "name": "Power Tools Pro Series 147",
+      "category": "Power Tools",
+      "shortDescription": "Reliable power tools product designed for site performance.",
+      "description": "Mock catalog item 147 for Power Tools. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3090,
+      "priceMax": 3895,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-147/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-plumbing-148",
+      "name": "Plumbing Pro Series 148",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 148 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3110,
+      "priceMax": 3920,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-148/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-149",
+      "name": "Safety Gear Pro Series 149",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 149 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3130,
+      "priceMax": 3945,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-149/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-150",
+      "name": "Cement Pro Series 150",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 150 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3150,
+      "priceMax": 3970,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-150/900/700",
+      "featured": false
     }
   ],
   "inquiries": [],
@@ -7030,5 +9750,14 @@
     "totalProducts": 388,
     "generatedAt": "2025-01-01T00:00:00Z",
     "source": "3PR Across Private Limited - Product Catalog"
+  },
+  "traffic": {
+    "monthKey": "2026-03",
+    "uniqueSessions": [
+      "visitor-1774730692973-1dxgow5z"
+    ],
+    "uniqueCount": 1,
+    "totalVisits": 1,
+    "updatedAt": 1774737019296
   }
 }

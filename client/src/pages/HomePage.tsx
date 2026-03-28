@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getFeaturedProducts } from "../api/client";
-import { categories, testimonials } from "../constants";
+import { categories, categoryPreviewImages, testimonials } from "../constants";
 import { ProductCard } from "../components/ProductCard";
 import type { Product } from "../types";
 import { SEO } from "../components/SEO";
@@ -90,8 +90,13 @@ export function HomePage() {
           <div className="category-grid">
             {categories.map((category) => (
               <Link key={category} to={`/catalog?category=${encodeURIComponent(category)}`} className="category-card reveal">
-                <h3>{category}</h3>
-                <p>Curated products for {category.toLowerCase()} workflows.</p>
+                <div className="category-card-content">
+                  <h3>{category}</h3>
+                  <p>Curated products for {category.toLowerCase()} workflows.</p>
+                </div>
+                <div className="category-preview" aria-hidden="true">
+                  <img src={categoryPreviewImages[category]} alt="" loading="lazy" />
+                </div>
               </Link>
             ))}
           </div>
@@ -107,7 +112,7 @@ export function HomePage() {
             </Link>
           </div>
           {featuredError ? <p>{featuredError}</p> : null}
-          <div className="product-grid">
+          <div className="product-grid featured-grid">
             {featured.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}

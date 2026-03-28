@@ -2,18 +2,35 @@ export const categories = [
   "Welding Accessories & Spare Parts",
   "Power Tools & Spare Parts",
   "Electrical Items",
+  "Tools & TCT Core Cutter & Dill bits",
   "Safety Items",
   "Hydraulic Items & Valves",
   "Measuring & Testing Instruments",
-  "Hand Tools",
   "Nut Bolts & Washers",
   "Belts & Coupling",
   "Bearing",
   "General Items",
-  "Tools & Drill Bits",
+  "Oil seal",
+  "tools"
 
 
 ] as const;
+
+export const categoryPreviewImages: Record<(typeof categories)[number], string> = {
+  "Welding Accessories & Spare Parts": "/public/welding Accessories & Spare Part.png",
+  "Power Tools & Spare Parts": "/public/All Kinds of Power Tools Accessories and Spare Parts.png",
+  "Electrical Items": "/public/Electrical Items.png",
+  "Tools & TCT Core Cutter & Dill bits" :"/public/tools & TCT core cutter & drills bits.png",
+  "Safety Items": "/public/safety items.png",
+  "Hydraulic Items & Valves": "/public/hydraulic items and valve.png",
+  "Measuring & Testing Instruments": "/public/meauring and testing instruments.png",
+  "Nut Bolts & Washers": "/public/nut bolts & washer.png",
+  "Belts & Coupling": "/public/Belt and coupling.png",
+  "Bearing": "/public/bearing.png",
+  "General Items": "/public/general items.png",
+  "Oil seal" : "/public/oil seal.png",
+  "tools":"/public/tools"
+};
 
 export const testimonials = [
   {
