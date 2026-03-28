@@ -28,7 +28,7 @@ app.use(
         callback(null, true);
         return;
       }
-      callback(new Error("CORS origin not allowed"));
+      callback(null, false);
     },
   })
 );

@@ -1,8 +1,25 @@
 import axios from "axios";
 import type { Inquiry, Product, Stats } from "../types";
 
+function resolveConfiguredBaseURL(rawBaseURL: string) {
+  const trimmed = rawBaseURL.trim();
+  if (!trimmed) {
+    return "";
+  }
+
+  try {
+    const url = new URL(trimmed);
+    const pathname = url.pathname.replace(/\/+$/, "");
+    url.pathname = pathname && pathname !== "/" ? pathname : "/api";
+    return url.toString().replace(/\/+$/, "");
+  } catch {
+    const normalized = trimmed.replace(/\/+$/, "");
+    return normalized.endsWith("/api") ? normalized : `${normalized}/api`;
+  }
+}
+
 const configuredBaseURL = import.meta.env.VITE_API_BASE_URL?.trim();
-const normalizedConfiguredBaseURL = configuredBaseURL ? configuredBaseURL.replace(/\/+$/, "") : "";
+const normalizedConfiguredBaseURL = configuredBaseURL ? resolveConfiguredBaseURL(configuredBaseURL) : "";
 const fallbackBaseURL = import.meta.env.DEV ? "http://localhost:4000/api" : `${window.location.origin}/api`;
 const baseURL = normalizedConfiguredBaseURL || fallbackBaseURL;
 
