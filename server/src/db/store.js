@@ -12,6 +12,22 @@ function startOfToday() {
   return date.getTime();
 }
 
+function getMonthKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  return `${year}-${month}`;
+}
+
+function createInitialTraffic(monthKey = getMonthKey()) {
+  return {
+    monthKey,
+    uniqueSessions: [],
+    uniqueCount: 0,
+    totalVisits: 0,
+    updatedAt: Date.now(),
+  };
+}
+
 function ensureDb() {
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -23,6 +39,7 @@ function ensureDb() {
       products,
       inquiries: [],
       visitors: {},
+      traffic: createInitialTraffic(),
       admins: [
         {
           username: process.env.ADMIN_USERNAME || "admin",
@@ -39,8 +56,13 @@ function ensureDb() {
   const missingSeedProducts = products.filter((item) => !existingIds.has(item.id));
   if (missingSeedProducts.length > 0) {
     current.products = [...(current.products || []), ...missingSeedProducts];
-    fs.writeFileSync(DB_FILE, JSON.stringify(current, null, 2));
   }
+
+  if (!current.traffic || typeof current.traffic !== "object") {
+    current.traffic = createInitialTraffic();
+  }
+
+  fs.writeFileSync(DB_FILE, JSON.stringify(current, null, 2));
 }
 
 function readDb() {
@@ -134,6 +156,44 @@ function getStats() {
   };
 }
 
+function ensureTrafficForCurrentMonth(db) {
+  const monthKey = getMonthKey();
+  if (!db.traffic || db.traffic.monthKey !== monthKey) {
+    db.traffic = createInitialTraffic(monthKey);
+  }
+}
+
+function trackMonthlyVisit(sessionId) {
+  const db = readDb();
+  ensureTrafficForCurrentMonth(db);
+
+  db.traffic.totalVisits += 1;
+  if (!db.traffic.uniqueSessions.includes(sessionId)) {
+    db.traffic.uniqueSessions.push(sessionId);
+    db.traffic.uniqueCount = db.traffic.uniqueSessions.length;
+  }
+  db.traffic.updatedAt = Date.now();
+
+  writeDb(db);
+
+  return {
+    monthKey: db.traffic.monthKey,
+    uniqueCount: db.traffic.uniqueCount,
+    totalVisits: db.traffic.totalVisits,
+  };
+}
+
+function getMonthlyTraffic() {
+  const db = readDb();
+  ensureTrafficForCurrentMonth(db);
+  writeDb(db);
+  return {
+    monthKey: db.traffic.monthKey,
+    uniqueCount: db.traffic.uniqueCount,
+    totalVisits: db.traffic.totalVisits,
+  };
+}
+
 function addProduct(product) {
   const db = readDb();
   const idBase = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -160,4 +220,6 @@ module.exports = {
   getLiveVisitorCount,
   getStats,
   addProduct,
+  trackMonthlyVisit,
+  getMonthlyTraffic,
 };

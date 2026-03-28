@@ -1,9 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
-import { getLiveVisitors, pingVisitor } from "../api/client";
+import { getMonthlyTraffic, registerVisit } from "../api/client";
 
 const SESSION_KEY = "buildmart_visitor_session";
-const LIVE_FALLBACK_MIN = 4;
-const LIVE_FALLBACK_MAX = 17;
+const VISIT_LOGGED_KEY = "buildmart_visit_logged_month";
+
+function getCurrentMonthKey() {
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  return `${year}-${month}`;
+}
 
 function getOrCreateSessionId() {
   const existing = localStorage.getItem(SESSION_KEY);
@@ -16,62 +22,39 @@ function getOrCreateSessionId() {
 }
 
 export function useVisitorCounter() {
-  const [liveCount, setLiveCount] = useState<number>(LIVE_FALLBACK_MIN);
+  const [traffic, setTraffic] = useState({
+    monthKey: getCurrentMonthKey(),
+    uniqueCount: 0,
+    totalVisits: 0,
+  });
 
   const sessionId = useMemo(() => getOrCreateSessionId(), []);
 
   useEffect(() => {
-    let timer: number | undefined;
-    let eventSource: EventSource | undefined;
-    let heartbeat: number | undefined;
-
-    const apiBase = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000/api";
-
-    const syncVisitor = async () => {
+    const syncTraffic = async () => {
       try {
-        await pingVisitor(sessionId);
-        const serverCount = await getLiveVisitors();
-        setLiveCount(Math.max(serverCount, LIVE_FALLBACK_MIN));
+        const currentMonth = getCurrentMonthKey();
+        const loggedMonth = localStorage.getItem(VISIT_LOGGED_KEY);
+
+        if (loggedMonth !== currentMonth) {
+          const tracked = await registerVisit(sessionId);
+          setTraffic(tracked);
+          localStorage.setItem(VISIT_LOGGED_KEY, tracked.monthKey);
+          return;
+        }
+
+        const monthly = await getMonthlyTraffic();
+        setTraffic(monthly);
       } catch {
-        const fallback =
-          LIVE_FALLBACK_MIN + Math.floor(Math.random() * (LIVE_FALLBACK_MAX - LIVE_FALLBACK_MIN + 1));
-        setLiveCount(fallback);
+        setTraffic((prev) => prev);
       }
     };
 
-    void syncVisitor();
+    void syncTraffic();
 
-    try {
-      eventSource = new EventSource(`${apiBase}/visitors/stream`);
-      eventSource.onmessage = (event) => {
-        const payload = JSON.parse(event.data) as { count?: number };
-        if (typeof payload.count === "number") {
-          setLiveCount(Math.max(payload.count, LIVE_FALLBACK_MIN));
-        }
-      };
-      eventSource.onerror = () => {
-        if (!timer) {
-          timer = window.setInterval(syncVisitor, 9000);
-        }
-      };
-    } catch {
-      timer = window.setInterval(syncVisitor, 9000);
-    }
-
-    heartbeat = window.setInterval(syncVisitor, 12000);
-
-    return () => {
-      if (timer) {
-        window.clearInterval(timer);
-      }
-      if (heartbeat) {
-        window.clearInterval(heartbeat);
-      }
-      if (eventSource) {
-        eventSource.close();
-      }
-    };
+    const refreshTimer = window.setInterval(syncTraffic, 60000);
+    return () => window.clearInterval(refreshTimer);
   }, [sessionId]);
 
-  return liveCount;
+  return traffic;
 }

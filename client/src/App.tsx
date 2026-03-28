@@ -10,11 +10,11 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 import { ProductDetailPage } from "./pages/ProductDetailPage";
 
 function App() {
-  const liveCount = useVisitorCounter();
+  const traffic = useVisitorCounter();
 
   return (
     <Layout>
-      <FloatingActions liveCount={liveCount} />
+      <FloatingActions monthlyVisitors={traffic.uniqueCount} monthlyVisits={traffic.totalVisits} />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/catalog" element={<CatalogPage />} />

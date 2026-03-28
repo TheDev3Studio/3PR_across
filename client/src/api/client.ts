@@ -31,13 +31,20 @@ export async function submitInquiry(payload: {
   return data.inquiry;
 }
 
-export async function pingVisitor(sessionId: string) {
-  await api.post("/visitors/ping", { sessionId });
+export interface MonthlyTraffic {
+  monthKey: string;
+  uniqueCount: number;
+  totalVisits: number;
 }
 
-export async function getLiveVisitors() {
-  const { data } = await api.get<{ count: number }>("/visitors/live");
-  return data.count;
+export async function registerVisit(sessionId: string) {
+  const { data } = await api.post<{ traffic: MonthlyTraffic }>("/visitors/visit", { sessionId });
+  return data.traffic;
+}
+
+export async function getMonthlyTraffic() {
+  const { data } = await api.get<{ traffic: MonthlyTraffic }>("/visitors/monthly");
+  return data.traffic;
 }
 
 export async function adminLogin(username: string, password: string) {
