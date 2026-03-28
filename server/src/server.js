@@ -5,5 +5,5 @@ const port = Number(process.env.PORT || 4000);
 
 app.listen(port, () => {
   // eslint-disable-next-line no-console
-  console.log(`BuildMart API running on port ${port}`);
+  console.log(`3Pr across API running on port ${port}`);
 });

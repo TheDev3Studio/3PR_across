@@ -7,7 +7,7 @@ import { SEO } from "../components/SEO";
 
 export function AdminLoginPage() {
   const [username, setUsername] = useState("admin");
-  const [password, setPassword] = useState("buildmart123");
+  const [password, setPassword] = useState("3pracross");
   const [error, setError] = useState("");
   const { login } = useAdminAuth();
   const navigate = useNavigate();
@@ -26,7 +26,7 @@ export function AdminLoginPage() {
 
   return (
     <>
-      <SEO title="Admin Login" description="Admin login for BuildMart dashboard" path="/admin" />
+      <SEO title="Admin Login" description="Admin login for 3pr across dashboard" path="/admin" />
       <section className="section">
         <div className="container narrow">
           <article className="admin-card reveal">

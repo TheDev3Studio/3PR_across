@@ -14,7 +14,7 @@ export function FloatingActions({ monthlyVisitors, monthlyVisits }: FloatingActi
       </div>
       <a
         className="whatsapp-float"
-        href="https://wa.me/919000012345?text=Hi%20BuildMart%2C%20I%20want%20a%20quotation"
+        href="https://wa.me/919000012345?text=Hi%203pr%20across%2C%20I%20want%20a%20quotation"
         target="_blank"
         rel="noreferrer"
       >

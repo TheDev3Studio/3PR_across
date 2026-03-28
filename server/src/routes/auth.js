@@ -15,7 +15,7 @@ router.post("/login", (req, res) => {
     return res.status(401).json({ message: "Invalid credentials" });
   }
 
-  const token = jwt.sign({ username, role: "admin" }, process.env.JWT_SECRET || "buildmart-secret", {
+  const token = jwt.sign({ username, role: "admin" }, process.env.JWT_SECRET || "3pracross-secret", {
     expiresIn: "12h",
   });
 

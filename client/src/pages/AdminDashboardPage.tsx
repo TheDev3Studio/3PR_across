@@ -61,7 +61,7 @@ export function AdminDashboardPage() {
 
   return (
     <>
-      <SEO title="Admin Dashboard" description="BuildMart admin dashboard" path="/admin/dashboard" />
+      <SEO title="Admin Dashboard" description="3pr across admin dashboard" path="/admin/dashboard" />
       <section className="section">
         <div className="container">
           <div className="admin-topbar">

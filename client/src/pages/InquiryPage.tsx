@@ -39,7 +39,7 @@ export function InquiryPage() {
     <>
       <SEO
         title="Inquiry & Contact"
-        description="Send inquiry to BuildMart for product pricing and availability."
+        description="Send inquiry to 3pr across for product pricing and availability."
         path="/inquiry"
       />
       <section className="section">
@@ -99,7 +99,7 @@ export function InquiryPage() {
           <aside className="contact-card reveal">
             <h2>Need Immediate Help?</h2>
             <div className="contact-actions">
-              <a className="btn btn-soft" href="https://wa.me/919000012345?text=Hi%20BuildMart%2C%20need%20quote">
+              <a className="btn btn-soft" href="https://wa.me/919000012345?text=Hi%203pr%20across%2C%20need%20quote">
                 WhatsApp Quick Link
               </a>
               <a className="btn btn-soft" href="tel:+919000012345">

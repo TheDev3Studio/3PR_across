@@ -11,10 +11,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="site-shell">
       <header className="topbar">
         <div className="container topbar-inner">
-          <Link to="/" className="brand" aria-label="BuildMart home">
+          <Link to="/" className="brand" aria-label="3pr across home">
             <span className="brand-mark">BM</span>
             <div>
-              <strong>BuildMart</strong>
+              <strong>3pr across</strong>
               <p>Product Catalog</p>
             </div>
           </Link>
@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <footer className="footer">
         <div className="container footer-grid">
           <div>
-            <h4>BuildMart</h4>
+            <h4>3pr across</h4>
             <p>Your trusted partner for cement and construction tools.</p>
           </div>
           <div>

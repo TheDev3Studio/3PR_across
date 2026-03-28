@@ -13,19 +13,19 @@ export function HomePage() {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "BuildMart",
-      url: import.meta.env.VITE_SITE_URL || "https://buildmart.example",
+      name: "3pr across",
+      url: import.meta.env.VITE_SITE_URL || "https://3pracross.example",
       telephone: "+91-90000-12345",
       sameAs: ["https://wa.me/919000012345"],
     },
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "BuildMart",
-      url: import.meta.env.VITE_SITE_URL || "https://buildmart.example",
+      name: "3pr across",
+      url: import.meta.env.VITE_SITE_URL || "https://3pracross.example",
       potentialAction: {
         "@type": "SearchAction",
-        target: `${import.meta.env.VITE_SITE_URL || "https://buildmart.example"}/catalog?q={search_term_string}`,
+        target: `${import.meta.env.VITE_SITE_URL || "https://3pracross.example"}/catalog?q={search_term_string}`,
         "query-input": "required name=search_term_string",
       },
     },
@@ -38,15 +38,15 @@ export function HomePage() {
   return (
     <>
       <SEO
-        title="BuildMart Home"
-        description="BuildMart is your trusted building materials partner for cement, hand tools, power tools, plumbing, and safety gear."
+        title="3pr across Home"
+        description="3pr across is your trusted building materials partner for cement, hand tools, power tools, plumbing, and safety gear."
         path="/"
         structuredData={structuredData}
       />
       <section className="hero-section">
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">BuildMart Product Catalog</p>
+            <p className="eyebrow">3pr across Product Catalog</p>
             <h1>Your Trusted Building Materials Partner</h1>
             <p className="hero-subtext">
               Source premium cement and construction tools with transparent pricing and quick inquiry support.

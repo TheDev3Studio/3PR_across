@@ -27,7 +27,7 @@ export function CatalogPage() {
     <>
       <SEO
         title="Product Catalog"
-        description="Browse BuildMart catalog with category filters for cement and construction tools."
+        description="Browse 3pr across catalog with category filters for cement and construction tools."
         path="/catalog"
       />
       <section className="section">
