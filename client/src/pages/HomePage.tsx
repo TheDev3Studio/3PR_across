@@ -55,9 +55,9 @@ export function HomePage() {
         <div className="container hero-grid">
           <div>
             <p className="eyebrow">3pr across Product Catalog</p>
-            <h1>Your Trusted Building Materials Partner</h1>
+            <h1>India's Trusted Industrial Supply Partner</h1>
             <p className="hero-subtext">
-              Source premium cement and construction tools with transparent pricing and quick inquiry support.
+              From welding accessories to hydraulic valves, power tools to safety gear — 388+ industrial products across 13 categories. Bulk supply from Noida & Bhojpur across India.
             </p>
             <div className="hero-actions">
               <Link to="/catalog" className="btn btn-primary">
@@ -71,9 +71,12 @@ export function HomePage() {
           <div className="hero-panel reveal">
             <h3>Why Contractors Trust Us</h3>
             <ul>
-              <li>Authentic products from verified brands</li>
-              <li>Bulk order friendly pricing</li>
-              <li>Dedicated support for site procurement</li>
+              <li>Verified brands — NTN, SKF, FAG, Bosch, D-Link & more</li>
+              <li>Bulk order friendly with factory-direct pricing</li>
+              <li>Same-day response on WhatsApp inquiries</li>
+              <li>Serving industries across Noida, UP & Bihar</li>
+              <li>GST registered — proper invoicing & documentation</li>
+              <li>Wide range under one roof — 13 product categories</li>
             </ul>
           </div>
         </div>

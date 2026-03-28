@@ -36,7 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container footer-grid">
           <div>
             <h4>3pr across</h4>
-            <p>Your trusted partner for cement and construction tools.</p>
+            <p>India's Trusted Industrial Supply Partner</p>
           </div>
           <div>
             <h5>Quick Contact</h5>

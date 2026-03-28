@@ -1,9 +1,18 @@
 export const categories = [
-  "Cement",
+  "Welding Accessories & Spare Parts",
+  "Power Tools & Spare Parts",
+  "Electrical Items",
+  "Safety Items",
+  "Hydraulic Items & Valves",
+  "Measuring & Testing Instruments",
   "Hand Tools",
-  "Power Tools",
-  "Plumbing",
-  "Safety Gear",
+  "Nut Bolts & Washers",
+  "Belts & Coupling",
+  "Bearing",
+  "General Items",
+  "Tools & Drill Bits",
+
+
 ] as const;
 
 export const testimonials = [
