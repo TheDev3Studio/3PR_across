@@ -8,6 +8,7 @@ import { SEO } from "../components/SEO";
 
 export function HomePage() {
   const [featured, setFeatured] = useState<Product[]>([]);
+  const [featuredError, setFeaturedError] = useState("");
 
   const structuredData = [
     {
@@ -32,7 +33,14 @@ export function HomePage() {
   ];
 
   useEffect(() => {
-    void getFeaturedProducts().then(setFeatured).catch(() => setFeatured([]));
+    setFeaturedError("");
+    void getFeaturedProducts()
+      .then(setFeatured)
+      .catch((err: unknown) => {
+        setFeatured([]);
+        const message = err instanceof Error ? err.message : "Unable to load featured products right now.";
+        setFeaturedError(message);
+      });
   }, []);
 
   return (
@@ -95,6 +103,7 @@ export function HomePage() {
               View all products
             </Link>
           </div>
+          {featuredError ? <p>{featuredError}</p> : null}
           <div className="product-grid">
             {featured.map((product) => (
               <ProductCard key={product.id} product={product} />

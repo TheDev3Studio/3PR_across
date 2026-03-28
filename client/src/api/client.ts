@@ -1,7 +1,10 @@
 import axios from "axios";
 import type { Inquiry, Product, Stats } from "../types";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000/api";
+const configuredBaseURL = import.meta.env.VITE_API_BASE_URL?.trim();
+const normalizedConfiguredBaseURL = configuredBaseURL ? configuredBaseURL.replace(/\/+$/, "") : "";
+const fallbackBaseURL = import.meta.env.DEV ? "http://localhost:4000/api" : `${window.location.origin}/api`;
+const baseURL = normalizedConfiguredBaseURL || fallbackBaseURL;
 
 export const api = axios.create({ baseURL });
 

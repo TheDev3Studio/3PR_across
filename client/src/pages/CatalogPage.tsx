@@ -10,14 +10,21 @@ export function CatalogPage() {
   const [params, setParams] = useSearchParams();
   const [items, setItems] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const selectedCategory = params.get("category") || "";
   const query = params.get("q") || "";
 
   useEffect(() => {
     setLoading(true);
+    setError("");
     void getProducts({ category: selectedCategory || undefined, q: query || undefined })
       .then(setItems)
+      .catch((err: unknown) => {
+        setItems([]);
+        const message = err instanceof Error ? err.message : "Unable to load products right now.";
+        setError(message);
+      })
       .finally(() => setLoading(false));
   }, [selectedCategory, query]);
 
@@ -77,7 +84,8 @@ export function CatalogPage() {
             </div>
 
             {loading ? <p>Loading products...</p> : null}
-            {!loading && items.length === 0 ? <p>No products match your search.</p> : null}
+            {!loading && error ? <p>{error}</p> : null}
+            {!loading && !error && items.length === 0 ? <p>No products match your search.</p> : null}
 
             <div className="product-grid">
               {items.map((product) => (
