@@ -1,6 +1,6 @@
-# BuildMart - Fullstack Product Catalog Website
+# 3Pr across - Fullstack Product Catalog Website
 
-BuildMart is a fullstack catalog + inquiry platform for cement and construction tools.
+3Pr across is a fullstack catalog + inquiry platform for cement and construction tools.
 
 ## Tech Stack
 
@@ -59,7 +59,7 @@ Frontend runs on: `http://localhost:5173`
 ## Default Admin Credentials
 
 - Username: `admin`
-- Password: `buildmart123`
+- Password: `3Pr across123`
 
 Change credentials in `server/.env` before production use.
 
