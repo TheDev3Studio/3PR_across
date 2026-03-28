@@ -15,16 +15,21 @@ const app = express();
 
 ensureDb();
 
+function normalizeOrigin(value) {
+  return value.trim().replace(/\/+$/, "");
+}
+
 const allowedOrigins = (process.env.CLIENT_URL || "")
   .split(",")
-  .map((origin) => origin.trim())
+  .map((origin) => normalizeOrigin(origin))
   .filter(Boolean);
 
 app.use(helmet());
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
+      const normalizedOrigin = origin ? normalizeOrigin(origin) : "";
+      if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(normalizedOrigin)) {
         callback(null, true);
         return;
       }
