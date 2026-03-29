@@ -33,8 +33,8 @@ export function CatalogPage() {
   return (
     <>
       <SEO
-        title="Product Catalog"
-        description="Browse 3pr across catalog with category filters for cement and construction tools."
+        title="Product Catalogue"
+        description="Browse 3pr across catalogue with category filters for cement and construction tools."
         path="/catalog"
       />
       <section className="section">
@@ -66,7 +66,7 @@ export function CatalogPage() {
           <div>
             <div className="catalog-toolbar">
               <div>
-                <h1>Product Catalog</h1>
+                <h1>Product Catalogue</h1>
                 <p>{totalLabel}</p>
               </div>
               <input
