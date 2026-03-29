@@ -8,7 +8,6 @@ export function ProductCard({ product }: { product: Product }) {
       <div className="product-content">
         <span className="chip">{product.category}</span>
         <h3>{product.name}</h3>
-        <p className="product-summary">{product.shortDescription}</p>
         <details className="desc-dropdown">
           <summary>More description</summary>
           <p>{product.description}</p>

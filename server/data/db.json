@@ -55,7 +55,8 @@
         "Liner (P)",
         "24 KD Liner",
         "500/400 Amp Liner (P)"
-      ]
+      ],
+      "images": "/subcategory/liners.png"
     },
     {
       "id": 4,
@@ -68,7 +69,8 @@
         "Plasma M/C",
         "24 KD",
         "Tip Holder Nut"
-      ]
+      ],
+      "images": "/subcategory/tip holders.png"
     },
     {
       "id": 5,
@@ -80,7 +82,8 @@
         "24 KD Nozzle",
         "24 KD Nozzle Cap",
         "500 Amp Nozzle"
-      ]
+      ],
+      "images": "/subcategory/nozzles.png"
     },
     {
       "id": 6,
@@ -90,7 +93,8 @@
       "variants": [
         "400 Amp (P)",
         "500 Amp"
-      ]
+      ],
+      "images": "/subcategory/orifice.png"
     },
     {
       "id": 7,
@@ -116,7 +120,8 @@
         "24 KD Neck (Torch Head)",
         "Swan Neck",
         "Diffusers"
-      ]
+      ],
+      "images": "/subcategory/mig torch parts.png"
     },
     {
       "id": 9,
@@ -129,7 +134,8 @@
         "1/32",
         "3/64",
         "5/64"
-      ]
+      ],
+      "images": "/subcategory/gas cutting nozzles.png"
     },
     {
       "id": 10,
@@ -141,7 +147,8 @@
         "Argon Regulator",
         "CO2 Regulator",
         "Industrial LPG Regulator"
-      ]
+      ],
+      "images": "/subcategory/gas regulators.png"
     },
     {
       "id": 11,
@@ -153,7 +160,8 @@
         "Oxygen Key",
         "Argon Key",
         "CO2 Key"
-      ]
+      ],
+      "images": "/subcategory/flow meters keys.png"
     },
     {
       "id": 12,
@@ -163,7 +171,8 @@
       "variants": [
         "Full Welding Helmet",
         "Half Welding Helmet"
-      ]
+      ],
+      "images": "/subcategory/welding helmets.png"
     },
     {
       "id": 13,
@@ -173,7 +182,8 @@
       "variants": [
         "White Welding Glass",
         "Black Welding Glass"
-      ]
+      ],
+      "images": "/subcategory/welding glass.png"
     },
     {
       "id": 14,
@@ -183,7 +193,8 @@
       "variants": [
         "1000 Amp",
         "500 Amp"
-      ]
+      ],
+      "images": "/subcategory/arc holders.png"
     },
     {
       "id": 15,
@@ -193,7 +204,8 @@
       "variants": [
         "Welding Rods",
         "Welding Electrodes"
-      ]
+      ],
+      "images": "/subcategory/welding rods electrodes.png"
     },
     {
       "id": 16,
@@ -207,7 +219,8 @@
         "Gas Cutting Equipments (Set)",
         "Plasma Cutting Equipments (Set)",
         "All Type Pre Heater"
-      ]
+      ],
+      "images": "/subcategory/cutting plasma equipment.png"
     },
     {
       "id": 17,
@@ -219,7 +232,8 @@
         "Cylinder Key",
         "Cylinder Spanner",
         "Flashback Arrestor"
-      ]
+      ],
+      "images": "/subcategory/cylinder accessories.png"
     },
     {
       "id": 18,
@@ -233,7 +247,8 @@
         "Argon Hose Pipe",
         "Spray Hose Pipe",
         "Argon Sleeve"
-      ]
+      ],
+      "images": "/subcategory/welding hose pipes.png"
     },
     {
       "id": 19,
@@ -249,7 +264,8 @@
         "70 SQMM",
         "95 SQMM",
         "120 SQMM"
-      ]
+      ],
+      "images": "/subcategory/copper welding cable.png"
     },
     {
       "id": 20,
@@ -261,7 +277,8 @@
         "70 SQMM",
         "95 SQMM",
         "120 SQMM"
-      ]
+      ],
+      "images": "/subcategory/aluminium welding cable.png"
     },
     {
       "id": 21,
@@ -280,7 +297,8 @@
         "Teflon Tape",
         "PVC Pipe Jointer",
         "Afra Silican Spray"
-      ]
+      ],
+      "images": "/subcategory/misc welding accessories.png"
     },
     {
       "id": 22,
@@ -296,7 +314,8 @@
         "Gear Pinion Set",
         "Gear Spendel",
         "Grinder Switch"
-      ]
+      ],
+      "images": "/subcategory/ag4 grinder spare parts.png"
     },
     {
       "id": 23,
@@ -305,7 +324,8 @@
       "slug": "ag4-grinder-machine",
       "variants": [
         "AG-4 Grinder M/C (Complete)"
-      ]
+      ],
+      "images": "/subcategory/ag4 grinder machine.png"
     },
     {
       "id": 24,
@@ -319,7 +339,8 @@
         "Filled Coil",
         "Motor Housing",
         "Grinder M/C Bosch"
-      ]
+      ],
+      "images": "/subcategory/ag5 grinder spare parts.png"
     },
     {
       "id": 25,
@@ -328,7 +349,8 @@
       "slug": "ag5-grinder-machine",
       "variants": [
         "AG-5 Grinding Machine (Complete)"
-      ]
+      ],
+      "images": "/subcategory/ag5 grinder machine.png"
     },
     {
       "id": 26,
@@ -347,7 +369,8 @@
         "Motor Housing",
         "Nodellager",
         "Grinder Guard"
-      ]
+      ],
+      "images": "/subcategory/ag7 grinder spare parts.png"
     },
     {
       "id": 27,
@@ -356,7 +379,8 @@
       "slug": "ag7-grinder-machine",
       "variants": [
         "AG-7 Grinder M/C (Complete)"
-      ]
+      ],
+      "images": "/subcategory/ag7 grinder machine.png"
     },
     {
       "id": 28,
@@ -366,7 +390,8 @@
       "variants": [
         "General Filled Coil",
         "Filled Coil for Chopsaw M/C"
-      ]
+      ],
+      "images": "/subcategory/filled coils.png"
     },
     {
       "id": 29,
@@ -378,7 +403,8 @@
         "Grinder",
         "Hot Air Gun",
         "Impact Wrench"
-      ]
+      ],
+      "images": "/subcategory/power tools machines.png"
     },
     {
       "id": 30,
@@ -391,7 +417,8 @@
         "5 Inch",
         "7 Inch",
         "14 Inch"
-      ]
+      ],
+      "images": "/subcategory/cutting wheels.png"
     },
     {
       "id": 31,
@@ -403,7 +430,8 @@
         "5 Inch",
         "7 Inch",
         "14 Inch"
-      ]
+      ],
+      "images": "/subcategory/grinding wheels.png"
     },
     {
       "id": 32,
@@ -414,7 +442,8 @@
         "4 Inch",
         "5 Inch",
         "7 Inch"
-      ]
+      ],
+      "images": "/subcategory/buffing wheels.png"
     },
     {
       "id": 33,
@@ -425,7 +454,8 @@
         "Emery Wheel",
         "Sanding Paper",
         "Emery Paper"
-      ]
+      ],
+      "images": "/subcategory/abrasives.png"
     },
     {
       "id": 34,
@@ -438,7 +468,8 @@
         "Round File",
         "Triangular File",
         "Square File"
-      ]
+      ],
+      "images": "/subcategory/files.png"
     },
     {
       "id": 35,
@@ -457,7 +488,8 @@
         "Fiber Cable 4 Core",
         "HT Cable",
         "D-Link CAT-6 Wire 305 MTR"
-      ]
+      ],
+      "images": "/subcategory/cables wires.png"
     },
     {
       "id": 36,
@@ -470,7 +502,8 @@
         "500mm Cable Jointer",
         "D-Link RJ-45",
         "10mm Copper Pipe"
-      ]
+      ],
+      "images": "/subcategory/cable accessories.png"
     },
     {
       "id": 37,
@@ -484,7 +517,8 @@
         "10 Amp x 3 Pole",
         "32 Amp x 3 Pole",
         "32 Amp x 4 Pole"
-      ]
+      ],
+      "images": "/subcategory/mcb.png"
     },
     {
       "id": 38,
@@ -496,7 +530,8 @@
         "MCCB 100 Amp",
         "MCCB Box",
         "400 Amp MCCB Handle"
-      ]
+      ],
+      "images": "/subcategory/mccb.png"
     },
     {
       "id": 39,
@@ -505,7 +540,8 @@
       "slug": "distribution-box",
       "variants": [
         "Distribution Box (DB)"
-      ]
+      ],
+      "images": "/subcategory/distribution box.png"
     },
     {
       "id": 40,
@@ -517,7 +553,8 @@
         "AMR Meter",
         "Ampere Meter",
         "Temp Meter"
-      ]
+      ],
+      "images": "/subcategory/meters.png"
     },
     {
       "id": 41,
@@ -527,7 +564,8 @@
       "variants": [
         "Relay",
         "MN2 Overload Relay 20A S3A"
-      ]
+      ],
+      "images": "/subcategory/relays overload.png"
     },
     {
       "id": 42,
@@ -540,7 +578,8 @@
         "NO Element",
         "NC Siemens Add On Block",
         "Contactor Spare Kit 3TF34"
-      ]
+      ],
+      "images": "/subcategory/contactors add on blocks.png"
     },
     {
       "id": 43,
@@ -551,7 +590,8 @@
         "Mushroom Button",
         "Select On/Off Switch",
         "Proximity Sensor"
-      ]
+      ],
+      "images": "/subcategory/switches sensors.png"
     },
     {
       "id": 44,
@@ -563,7 +603,8 @@
         "Motor Starter",
         "10 Amp SMPS",
         "10 MFD Condenser"
-      ]
+      ],
+      "images": "/subcategory/motor starters smps.png"
     },
     {
       "id": 45,
@@ -574,7 +615,8 @@
         "Aluminium Electrode",
         "Aluminium Lug",
         "Cable Lug"
-      ]
+      ],
+      "images": "/subcategory/lugs electrodes.png"
     },
     {
       "id": 46,
@@ -586,7 +628,8 @@
         "LED Flood Light",
         "LED Street Light",
         "MT 3X19.05 Tool Holder Socket"
-      ]
+      ],
+      "images": "/subcategory/networking lighting.png"
     },
     {
       "id": 47,
@@ -603,7 +646,8 @@
         "Standard Carbide Tool",
         "Left Tool 1/2 Inch",
         "Right Tool 1/2 Inch"
-      ]
+      ],
+      "images": "/subcategory/carbide cutting tools.png"
     },
     {
       "id": 48,
@@ -612,7 +656,8 @@
       "slug": "white-tool",
       "variants": [
         "White Tool Standard"
-      ]
+      ],
+      "images": "/subcategory/white tool.png"
     },
     {
       "id": 49,
@@ -624,7 +669,8 @@
         "Eibenstock Brand",
         "Broachcutter Brand",
         "Schifler Brand"
-      ]
+      ],
+      "images": "/subcategory/tct core cutters.png"
     },
     {
       "id": 50,
@@ -633,7 +679,8 @@
       "slug": "tct-blade",
       "variants": [
         "TCT Blade Standard"
-      ]
+      ],
+      "images": "/subcategory/tct blade.png"
     },
     {
       "id": 51,
@@ -644,7 +691,8 @@
         "All Type Drill Bits (Assorted)",
         "HSS Drill Bit 14mm Dia",
         "HSS M2 Cold Saw Cutter 500x3x50x160 BR"
-      ]
+      ],
+      "images": "/subcategory/drill bits.png"
     },
     {
       "id": 52,
@@ -657,7 +705,8 @@
         "Drill Sleeve 1-2",
         "Drill Bit Socket",
         "Drive Socket Set"
-      ]
+      ],
+      "images": "/subcategory/drill accessories.png"
     },
     {
       "id": 53,
@@ -668,7 +717,8 @@
         "Milling Cutter 12mm",
         "Tap Set (Totem & Miranda)",
         "Tap Hand"
-      ]
+      ],
+      "images": "/subcategory/milling tap tools.png"
     },
     {
       "id": 54,
@@ -682,7 +732,8 @@
         "Red",
         "White",
         "Yellow"
-      ]
+      ],
+      "images": "/subcategory/safety helmets.png"
     },
     {
       "id": 55,
@@ -692,7 +743,8 @@
       "variants": [
         "Safety Belt",
         "Safety Shoes"
-      ]
+      ],
+      "images": "/subcategory/safety belt shoes.png"
     },
     {
       "id": 56,
@@ -708,7 +760,8 @@
         "Leather",
         "PU Coated Leather",
         "Disposable"
-      ]
+      ],
+      "images": "/subcategory/hand gloves.png"
     },
     {
       "id": 57,
@@ -720,7 +773,8 @@
         "6 MTR x 5 TON",
         "4 MTR x 3 TON",
         "5 MTR x 5 TON"
-      ]
+      ],
+      "images": "/subcategory/lifting belts.png"
     },
     {
       "id": 58,
@@ -731,7 +785,8 @@
         "10mm x 4 MTR",
         "10mm x 6 MTR",
         "12mm x 4 MTR"
-      ]
+      ],
+      "images": "/subcategory/lifting chains.png"
     },
     {
       "id": 59,
@@ -744,7 +799,8 @@
         "Wire Rope U Clamp",
         "Chain Kupi",
         "D Shackles"
-      ]
+      ],
+      "images": "/subcategory/wire rope accessories.png"
     },
     {
       "id": 60,
@@ -759,7 +815,8 @@
         "Disposable Mask",
         "Lint Free Cloths",
         "Surgical Coat"
-      ]
+      ],
+      "images": "/subcategory/disposable safety wear.png"
     },
     {
       "id": 61,
@@ -768,7 +825,8 @@
       "slug": "first-aid-box",
       "variants": [
         "First Aid Box Standard"
-      ]
+      ],
+      "images": "/subcategory/first aid box.png"
     },
     {
       "id": 62,
@@ -782,7 +840,8 @@
         "Hydraulic Vane Pump",
         "Hydraulic Press Pump",
         "Hydraulic Power Packs"
-      ]
+      ],
+      "images": "/subcategory/hydraulic pumps motors.png"
     },
     {
       "id": 63,
@@ -796,7 +855,8 @@
         "Suction Valve",
         "Hydraulic Valve (Rethorth/Polyhydron/Yuken)",
         "Hydraulic Pressure Switch"
-      ]
+      ],
+      "images": "/subcategory/hydraulic valves.png"
     },
     {
       "id": 64,
@@ -808,7 +868,8 @@
         "Brass Ball Valve",
         "CI Ball Valve",
         "SS Ball Valve"
-      ]
+      ],
+      "images": "/subcategory/ball valves.png"
     },
     {
       "id": 65,
@@ -818,7 +879,8 @@
       "variants": [
         "Butterfly Valve with MS Flapper & Shaft",
         "Non Return Valve"
-      ]
+      ],
+      "images": "/subcategory/butterfly non return valves.png"
     },
     {
       "id": 66,
@@ -828,7 +890,8 @@
       "variants": [
         "CI Foot Valve",
         "PVC Foot Valve"
-      ]
+      ],
+      "images": "/subcategory/foot valves.png"
     },
     {
       "id": 67,
@@ -839,7 +902,8 @@
         "SS & MS Glycerine Filled",
         "SS & MS Non-Glycerine",
         "Dial Meter (Pressure Gauge)"
-      ]
+      ],
+      "images": "/subcategory/pressure gauges.png"
     },
     {
       "id": 68,
@@ -850,7 +914,8 @@
         "Digital Temp Controller 1200°C",
         "Digital Temperature Meter",
         "Digital Thermometer"
-      ]
+      ],
+      "images": "/subcategory/temp controllers meters.png"
     },
     {
       "id": 69,
@@ -862,7 +927,8 @@
         "Rotary Switch On/Off",
         "Balaji Limit Switch",
         "230V AC Solenoid Coil (Steel Body)"
-      ]
+      ],
+      "images": "/subcategory/limit rotary switches.png"
     },
     {
       "id": 70,
@@ -872,7 +938,8 @@
       "variants": [
         "Hydraulic & Pneumatic Cylinders",
         "Dynaflex Hydraulic Hose Pipes"
-      ]
+      ],
+      "images": "/subcategory/hydraulic cylinders hose.png"
     },
     {
       "id": 71,
@@ -885,7 +952,8 @@
         "300mm",
         "600mm",
         "Long Nose Type"
-      ]
+      ],
+      "images": "/subcategory/digital vernier calipers.png"
     },
     {
       "id": 72,
@@ -895,7 +963,8 @@
       "variants": [
         "Digital Micrometer",
         "Digital Ball Pointed Micrometer"
-      ]
+      ],
+      "images": "/subcategory/micrometers.png"
     },
     {
       "id": 73,
@@ -904,7 +973,8 @@
       "slug": "dial-gauge",
       "variants": [
         "Dial Gauge Standard"
-      ]
+      ],
+      "images": "/subcategory/dial gauge.png"
     },
     {
       "id": 74,
@@ -915,7 +985,8 @@
         "Digital Clamp Meter",
         "Digital Clamp Meter AC/DCA",
         "Digital Multimeter"
-      ]
+      ],
+      "images": "/subcategory/clamp meters multimeters.png"
     },
     {
       "id": 75,
@@ -928,7 +999,8 @@
         "Digital Flow Meter 2-Inch",
         "Digital Coating Thickness Gauge (Matrix)",
         "Coat Meter"
-      ]
+      ],
+      "images": "/subcategory/specialty test meters.png"
     },
     {
       "id": 76,
@@ -938,7 +1010,8 @@
       "variants": [
         "150mm Magnetic",
         "500mm Magnetic"
-      ]
+      ],
+      "images": "/subcategory/spirit levels.png"
     },
     {
       "id": 77,
@@ -951,7 +1024,8 @@
         "NGT Tap L1 Gauge",
         "NGT Tap L9 Gauge",
         "NGT Tap C Gauge"
-      ]
+      ],
+      "images": "/subcategory/gauges tapes.png"
     },
     {
       "id": 78,
@@ -965,7 +1039,8 @@
         "Button Head Bolts",
         "Flange Button Head Bolts",
         "Allen Bolt"
-      ]
+      ],
+      "images": "/subcategory/socket allen bolts.png"
     },
     {
       "id": 79,
@@ -978,7 +1053,8 @@
         "SS (Stainless Steel)",
         "MS (Mild Steel)",
         "HT (High Tensile)"
-      ]
+      ],
+      "images": "/subcategory/hex bolt nut washer.png"
     },
     {
       "id": 80,
@@ -989,7 +1065,8 @@
         "Durlok Nut",
         "Nylock Nut",
         "Durlok Washer"
-      ]
+      ],
+      "images": "/subcategory/nuts washers.png"
     },
     {
       "id": 81,
@@ -1007,7 +1084,8 @@
         "SPB Section",
         "SPC Section",
         "SPZ Section"
-      ]
+      ],
+      "images": "/subcategory/v belt pulleys.png"
     },
     {
       "id": 82,
@@ -1016,7 +1094,8 @@
       "slug": "v-pulley",
       "variants": [
         "V Pulley Standard"
-      ]
+      ],
+      "images": "/subcategory/v pulley.png"
     },
     {
       "id": 83,
@@ -1032,7 +1111,8 @@
         "5M",
         "8M",
         "14M"
-      ]
+      ],
+      "images": "/subcategory/rubber timing belts.png"
     },
     {
       "id": 84,
@@ -1051,7 +1131,8 @@
         "Essex Coupling RRL Series",
         "Essex Coupling RRS Series",
         "150mm Star Coupling"
-      ]
+      ],
+      "images": "/subcategory/couplings.png"
     },
     {
       "id": 85,
@@ -1063,7 +1144,8 @@
         "NTN Japan",
         "FAG",
         "SKF"
-      ]
+      ],
+      "images": "/subcategory/bearings by brand.png"
     },
     {
       "id": 86,
@@ -1074,7 +1156,8 @@
         "Ball Bearing",
         "Roller Bearing",
         "Taper Bearing"
-      ]
+      ],
+      "images": "/subcategory/bearings by type.png"
     },
     {
       "id": 87,
@@ -1091,7 +1174,8 @@
         "Packing Oil Seal",
         "Dowty Seal",
         "Wiper Seal"
-      ]
+      ],
+      "images": "/subcategory/oil seals.png"
     },
     {
       "id": 88,
@@ -1102,7 +1186,8 @@
         "Gaskets",
         "SMS Union Gasket",
         "Binder Clip"
-      ]
+      ],
+      "images": "/subcategory/gaskets clips.png"
     },
     {
       "id": 89,
@@ -1115,7 +1200,8 @@
         "6 MTR",
         "15 MTR",
         "30 MTR"
-      ]
+      ],
+      "images": "/subcategory/steel tapes.png"
     },
     {
       "id": 90,
@@ -1131,7 +1217,8 @@
         "400mm",
         "500x4.8mm",
         "Standard"
-      ]
+      ],
+      "images": "/subcategory/cable ties.png"
     },
     {
       "id": 91,
@@ -1143,7 +1230,8 @@
         "21-44mm",
         "32-51mm",
         "50mm"
-      ]
+      ],
+      "images": "/subcategory/ss jublee clamps.png"
     },
     {
       "id": 92,
@@ -1154,7 +1242,8 @@
         "Hex Nipple 1 Inch x 3/4 Inch",
         "Hydraulic Hex Nipple",
         "GI Nipple"
-      ]
+      ],
+      "images": "/subcategory/nipples.png"
     },
     {
       "id": 93,
@@ -1168,7 +1257,8 @@
         "Hand Level Valve",
         "PU Fitting",
         "PU Pipe"
-      ]
+      ],
+      "images": "/subcategory/pneumatics.png"
     },
     {
       "id": 94,
@@ -1179,7 +1269,8 @@
         "White Tape",
         "Brown Tape",
         "Teflon Tap"
-      ]
+      ],
+      "images": "/subcategory/tapes adhesives.png"
     },
     {
       "id": 95,
@@ -1195,7 +1286,8 @@
         "Letter Punch",
         "Steel Punch",
         "Trolley Wheel Moving Type"
-      ]
+      ],
+      "images": "/subcategory/workshop misc.png"
     },
     {
       "id": 96,
@@ -1207,7 +1299,8 @@
         "1 x 12 Duplicate Special",
         "Chalk",
         "Stationery Items (Assorted)"
-      ]
+      ],
+      "images": "/subcategory/stationery.png"
     },
     {
       "id": 97,
@@ -1224,7 +1317,8 @@
         "Slide Wrench",
         "Pipe Wrench",
         "Torque Wrench"
-      ]
+      ],
+      "images": "/subcategory/wrenches spanners.png"
     },
     {
       "id": 98,
@@ -1236,7 +1330,8 @@
         "Combination Pliers",
         "Wire Cutter",
         "Bolts Cutter"
-      ]
+      ],
+      "images": "/subcategory/pliers cutters.png"
     },
     {
       "id": 99,
@@ -1248,7 +1343,8 @@
         "Allen Key Set (All MM)",
         "Screw Driver",
         "Tester"
-      ]
+      ],
+      "images": "/subcategory/allen keys screwdrivers.png"
     },
     {
       "id": 100,
@@ -1260,7 +1356,8 @@
         "Pipe Clamps 1/2 Inch",
         "Right Angle",
         "4 Inch Emery Wheel"
-      ]
+      ],
+      "images": "/subcategory/hammers misc.png"
     },
     {
       "id": "cement-opc-53",
@@ -1277,7 +1374,8 @@
       "priceMax": 420,
       "unit": "per bag",
       "image": "https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/buildstrong opc 53 grade cement.png"
     },
     {
       "id": "cement-ppc-premium",
@@ -1294,7 +1392,8 @@
       "priceMax": 390,
       "unit": "per bag",
       "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/ecomix ppc cement.png"
     },
     {
       "id": "hand-hammer-fiberglass",
@@ -1311,7 +1410,8 @@
       "priceMax": 480,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1581147036324-cbe1f5e2d3f1?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/fibergrip claw hammer 16oz.png"
     },
     {
       "id": "hand-spirit-level-24",
@@ -1328,7 +1428,8 @@
       "priceMax": 690,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1609205807107-e8ec2120f7c2?auto=format&fit=crop&w=900&q=80",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/precision spirit level 24 inch.png"
     },
     {
       "id": "power-drill-13mm",
@@ -1345,7 +1446,8 @@
       "priceMax": 3490,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/torquemax impact drill 13mm.png"
     },
     {
       "id": "power-grinder-4inch",
@@ -1362,7 +1464,8 @@
       "priceMax": 2990,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1586864387789-628af9feed72?auto=format&fit=crop&w=900&q=80",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cutpro angle grinder 4 inch.png"
     },
     {
       "id": "plumb-pvc-pipe-1in",
@@ -1379,7 +1482,8 @@
       "priceMax": 290,
       "unit": "per length",
       "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/hydroflow pvc pipe 1 inch.png"
     },
     {
       "id": "plumb-angle-valve-brass",
@@ -1396,7 +1500,8 @@
       "priceMax": 410,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=80",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/brass angle valve premium.png"
     },
     {
       "id": "safety-helmet-abs",
@@ -1413,7 +1518,8 @@
       "priceMax": 390,
       "unit": "per piece",
       "image": "https://images.unsplash.com/photo-1621955964441-c173e01c135b?auto=format&fit=crop&w=900&q=80",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/securesite abs safety helmet.png"
     },
     {
       "id": "safety-gloves-cutresist",
@@ -1430,7 +1536,8 @@
       "priceMax": 320,
       "unit": "per pair",
       "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=900&q=80",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cutshield safety gloves.png"
     },
     {
       "id": "mock-hand-tools-1",
@@ -1447,7 +1554,8 @@
       "priceMax": 245,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-1/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 1.png"
     },
     {
       "id": "mock-power-tools-2",
@@ -1464,7 +1572,8 @@
       "priceMax": 270,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-2/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 2.png"
     },
     {
       "id": "mock-plumbing-3",
@@ -1481,7 +1590,8 @@
       "priceMax": 295,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-3/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 3.png"
     },
     {
       "id": "mock-safety-gear-4",
@@ -1498,7 +1608,8 @@
       "priceMax": 320,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-4/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 4.png"
     },
     {
       "id": "mock-cement-5",
@@ -1515,7 +1626,8 @@
       "priceMax": 345,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-5/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 5.png"
     },
     {
       "id": "mock-hand-tools-6",
@@ -1532,7 +1644,8 @@
       "priceMax": 370,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-6/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 6.png"
     },
     {
       "id": "mock-power-tools-7",
@@ -1549,7 +1662,8 @@
       "priceMax": 395,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-7/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/power tools pro series 7.png"
     },
     {
       "id": "mock-plumbing-8",
@@ -1566,7 +1680,8 @@
       "priceMax": 420,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-8/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 8.png"
     },
     {
       "id": "mock-safety-gear-9",
@@ -1583,7 +1698,8 @@
       "priceMax": 445,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-9/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 9.png"
     },
     {
       "id": "mock-cement-10",
@@ -1600,7 +1716,8 @@
       "priceMax": 470,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-10/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 10.png"
     },
     {
       "id": "mock-hand-tools-11",
@@ -1617,7 +1734,8 @@
       "priceMax": 495,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-11/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 11.png"
     },
     {
       "id": "mock-power-tools-12",
@@ -1634,7 +1752,8 @@
       "priceMax": 520,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-12/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 12.png"
     },
     {
       "id": "mock-plumbing-13",
@@ -1651,7 +1770,8 @@
       "priceMax": 545,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-13/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 13.png"
     },
     {
       "id": "mock-safety-gear-14",
@@ -1668,7 +1788,8 @@
       "priceMax": 570,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-14/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/safety gear pro series 14.png"
     },
     {
       "id": "mock-cement-15",
@@ -1685,7 +1806,8 @@
       "priceMax": 595,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-15/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 15.png"
     },
     {
       "id": "mock-hand-tools-16",
@@ -1702,7 +1824,8 @@
       "priceMax": 620,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-16/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 16.png"
     },
     {
       "id": "mock-power-tools-17",
@@ -1719,7 +1842,8 @@
       "priceMax": 645,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-17/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 17.png"
     },
     {
       "id": "mock-plumbing-18",
@@ -1736,7 +1860,8 @@
       "priceMax": 670,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-18/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 18.png"
     },
     {
       "id": "mock-safety-gear-19",
@@ -1753,7 +1878,8 @@
       "priceMax": 695,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-19/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 19.png"
     },
     {
       "id": "mock-cement-20",
@@ -1770,7 +1896,8 @@
       "priceMax": 720,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-20/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 20.png"
     },
     {
       "id": "mock-hand-tools-21",
@@ -1787,7 +1914,8 @@
       "priceMax": 745,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-21/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/hand tools pro series 21.png"
     },
     {
       "id": "mock-power-tools-22",
@@ -1804,7 +1932,8 @@
       "priceMax": 770,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-22/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 22.png"
     },
     {
       "id": "mock-plumbing-23",
@@ -1821,7 +1950,8 @@
       "priceMax": 795,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-23/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 23.png"
     },
     {
       "id": "mock-safety-gear-24",
@@ -1838,7 +1968,8 @@
       "priceMax": 820,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-24/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 24.png"
     },
     {
       "id": "mock-cement-25",
@@ -1855,7 +1986,8 @@
       "priceMax": 845,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-25/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 25.png"
     },
     {
       "id": "mock-hand-tools-26",
@@ -1872,7 +2004,8 @@
       "priceMax": 870,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-26/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 26.png"
     },
     {
       "id": "mock-power-tools-27",
@@ -1889,7 +2022,8 @@
       "priceMax": 895,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-27/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 27.png"
     },
     {
       "id": "mock-plumbing-28",
@@ -1906,7 +2040,8 @@
       "priceMax": 920,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-28/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/plumbing pro series 28.png"
     },
     {
       "id": "mock-safety-gear-29",
@@ -1923,7 +2058,8 @@
       "priceMax": 945,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-29/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 29.png"
     },
     {
       "id": "mock-cement-30",
@@ -1940,7 +2076,8 @@
       "priceMax": 970,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-30/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 30.png"
     },
     {
       "id": "mock-hand-tools-31",
@@ -1957,7 +2094,8 @@
       "priceMax": 995,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-31/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 31.png"
     },
     {
       "id": "mock-power-tools-32",
@@ -1974,7 +2112,8 @@
       "priceMax": 1020,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-32/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 32.png"
     },
     {
       "id": "mock-plumbing-33",
@@ -1991,7 +2130,8 @@
       "priceMax": 1045,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-33/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 33.png"
     },
     {
       "id": "mock-safety-gear-34",
@@ -2008,7 +2148,8 @@
       "priceMax": 1070,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-34/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 34.png"
     },
     {
       "id": "mock-cement-35",
@@ -2025,7 +2166,8 @@
       "priceMax": 1095,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-35/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/cement pro series 35.png"
     },
     {
       "id": "mock-hand-tools-36",
@@ -2042,7 +2184,8 @@
       "priceMax": 1120,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-36/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 36.png"
     },
     {
       "id": "mock-power-tools-37",
@@ -2059,7 +2202,8 @@
       "priceMax": 1145,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-37/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 37.png"
     },
     {
       "id": "mock-plumbing-38",
@@ -2076,7 +2220,8 @@
       "priceMax": 1170,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-38/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 38.png"
     },
     {
       "id": "mock-safety-gear-39",
@@ -2093,7 +2238,8 @@
       "priceMax": 1195,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-39/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 39.png"
     },
     {
       "id": "mock-cement-40",
@@ -2110,7 +2256,8 @@
       "priceMax": 1220,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-40/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 40.png"
     },
     {
       "id": "mock-hand-tools-41",
@@ -2127,7 +2274,8 @@
       "priceMax": 1245,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-41/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 41.png"
     },
     {
       "id": "mock-power-tools-42",
@@ -2144,7 +2292,8 @@
       "priceMax": 1270,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-42/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/power tools pro series 42.png"
     },
     {
       "id": "mock-plumbing-43",
@@ -2161,7 +2310,8 @@
       "priceMax": 1295,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-43/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 43.png"
     },
     {
       "id": "mock-safety-gear-44",
@@ -2178,7 +2328,8 @@
       "priceMax": 1320,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-44/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 44.png"
     },
     {
       "id": "mock-cement-45",
@@ -2195,7 +2346,8 @@
       "priceMax": 1345,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-45/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 45.png"
     },
     {
       "id": "mock-hand-tools-46",
@@ -2212,7 +2364,8 @@
       "priceMax": 1370,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-46/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 46.png"
     },
     {
       "id": "mock-power-tools-47",
@@ -2229,7 +2382,8 @@
       "priceMax": 1395,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-47/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 47.png"
     },
     {
       "id": "mock-plumbing-48",
@@ -2246,7 +2400,8 @@
       "priceMax": 1420,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-48/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 48.png"
     },
     {
       "id": "mock-safety-gear-49",
@@ -2263,7 +2418,8 @@
       "priceMax": 1445,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-49/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/safety gear pro series 49.png"
     },
     {
       "id": "mock-cement-50",
@@ -2280,7 +2436,8 @@
       "priceMax": 1470,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-50/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 50.png"
     },
     {
       "id": "mock-hand-tools-51",
@@ -2297,7 +2454,8 @@
       "priceMax": 1495,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-51/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 51.png"
     },
     {
       "id": "mock-power-tools-52",
@@ -2314,7 +2472,8 @@
       "priceMax": 1520,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-52/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 52.png"
     },
     {
       "id": "mock-plumbing-53",
@@ -2331,7 +2490,8 @@
       "priceMax": 1545,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-53/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 53.png"
     },
     {
       "id": "mock-safety-gear-54",
@@ -2348,7 +2508,8 @@
       "priceMax": 1570,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-54/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 54.png"
     },
     {
       "id": "mock-cement-55",
@@ -2365,7 +2526,8 @@
       "priceMax": 1595,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-55/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 55.png"
     },
     {
       "id": "mock-hand-tools-56",
@@ -2382,7 +2544,8 @@
       "priceMax": 1620,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-56/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/hand tools pro series 56.png"
     },
     {
       "id": "mock-power-tools-57",
@@ -2399,7 +2562,8 @@
       "priceMax": 1645,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-57/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 57.png"
     },
     {
       "id": "mock-plumbing-58",
@@ -2416,7 +2580,8 @@
       "priceMax": 1670,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-58/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 58.png"
     },
     {
       "id": "mock-safety-gear-59",
@@ -2433,7 +2598,8 @@
       "priceMax": 1695,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-59/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 59.png"
     },
     {
       "id": "mock-cement-60",
@@ -2450,7 +2616,8 @@
       "priceMax": 1720,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-60/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 60.png"
     },
     {
       "id": "mock-hand-tools-61",
@@ -2467,7 +2634,8 @@
       "priceMax": 1745,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-61/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 61.png"
     },
     {
       "id": "mock-power-tools-62",
@@ -2484,7 +2652,8 @@
       "priceMax": 1770,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-62/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 62.png"
     },
     {
       "id": "mock-plumbing-63",
@@ -2501,7 +2670,8 @@
       "priceMax": 1795,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-63/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/plumbing pro series 63.png"
     },
     {
       "id": "mock-safety-gear-64",
@@ -2518,7 +2688,8 @@
       "priceMax": 1820,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-64/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 64.png"
     },
     {
       "id": "mock-cement-65",
@@ -2535,7 +2706,8 @@
       "priceMax": 1845,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-65/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 65.png"
     },
     {
       "id": "mock-hand-tools-66",
@@ -2552,7 +2724,8 @@
       "priceMax": 1870,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-66/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 66.png"
     },
     {
       "id": "mock-power-tools-67",
@@ -2569,7 +2742,8 @@
       "priceMax": 1895,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-67/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 67.png"
     },
     {
       "id": "mock-plumbing-68",
@@ -2586,7 +2760,8 @@
       "priceMax": 1920,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-68/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 68.png"
     },
     {
       "id": "mock-safety-gear-69",
@@ -2603,7 +2778,8 @@
       "priceMax": 1945,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-69/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 69.png"
     },
     {
       "id": "mock-cement-70",
@@ -2620,7 +2796,8 @@
       "priceMax": 1970,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-70/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/cement pro series 70.png"
     },
     {
       "id": "mock-hand-tools-71",
@@ -2637,7 +2814,8 @@
       "priceMax": 1995,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-71/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 71.png"
     },
     {
       "id": "mock-power-tools-72",
@@ -2654,7 +2832,8 @@
       "priceMax": 2020,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-72/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 72.png"
     },
     {
       "id": "mock-plumbing-73",
@@ -2671,7 +2850,8 @@
       "priceMax": 2045,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-73/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 73.png"
     },
     {
       "id": "mock-safety-gear-74",
@@ -2688,7 +2868,8 @@
       "priceMax": 2070,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-74/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 74.png"
     },
     {
       "id": "mock-cement-75",
@@ -2705,7 +2886,8 @@
       "priceMax": 2095,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-75/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 75.png"
     },
     {
       "id": "mock-hand-tools-76",
@@ -2722,7 +2904,8 @@
       "priceMax": 2120,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-76/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 76.png"
     },
     {
       "id": "mock-power-tools-77",
@@ -2739,7 +2922,8 @@
       "priceMax": 2145,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-77/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/power tools pro series 77.png"
     },
     {
       "id": "mock-plumbing-78",
@@ -2756,7 +2940,8 @@
       "priceMax": 2170,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-78/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 78.png"
     },
     {
       "id": "mock-safety-gear-79",
@@ -2773,7 +2958,8 @@
       "priceMax": 2195,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-79/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 79.png"
     },
     {
       "id": "mock-cement-80",
@@ -2790,7 +2976,8 @@
       "priceMax": 2220,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-80/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 80.png"
     },
     {
       "id": "mock-hand-tools-81",
@@ -2807,7 +2994,8 @@
       "priceMax": 2245,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-81/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 81.png"
     },
     {
       "id": "mock-power-tools-82",
@@ -2824,7 +3012,8 @@
       "priceMax": 2270,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-82/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 82.png"
     },
     {
       "id": "mock-plumbing-83",
@@ -2841,7 +3030,8 @@
       "priceMax": 2295,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-83/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 83.png"
     },
     {
       "id": "mock-safety-gear-84",
@@ -2858,7 +3048,8 @@
       "priceMax": 2320,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-84/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/safety gear pro series 84.png"
     },
     {
       "id": "mock-cement-85",
@@ -2875,7 +3066,8 @@
       "priceMax": 2345,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-85/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 85.png"
     },
     {
       "id": "mock-hand-tools-86",
@@ -2892,7 +3084,8 @@
       "priceMax": 2370,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-86/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 86.png"
     },
     {
       "id": "mock-power-tools-87",
@@ -2909,7 +3102,8 @@
       "priceMax": 2395,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-87/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 87.png"
     },
     {
       "id": "mock-plumbing-88",
@@ -2926,7 +3120,8 @@
       "priceMax": 2420,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-88/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 88.png"
     },
     {
       "id": "mock-safety-gear-89",
@@ -2943,7 +3138,8 @@
       "priceMax": 2445,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-89/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 89.png"
     },
     {
       "id": "mock-cement-90",
@@ -2960,7 +3156,8 @@
       "priceMax": 2470,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-90/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 90.png"
     },
     {
       "id": "mock-hand-tools-91",
@@ -2977,7 +3174,8 @@
       "priceMax": 2495,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-91/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/hand tools pro series 91.png"
     },
     {
       "id": "mock-power-tools-92",
@@ -2994,7 +3192,8 @@
       "priceMax": 2520,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-92/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 92.png"
     },
     {
       "id": "mock-plumbing-93",
@@ -3011,7 +3210,8 @@
       "priceMax": 2545,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-93/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 93.png"
     },
     {
       "id": "mock-safety-gear-94",
@@ -3028,7 +3228,8 @@
       "priceMax": 2570,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-94/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 94.png"
     },
     {
       "id": "mock-cement-95",
@@ -3045,7 +3246,8 @@
       "priceMax": 2595,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-95/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 95.png"
     },
     {
       "id": "mock-hand-tools-96",
@@ -3062,7 +3264,8 @@
       "priceMax": 2620,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-96/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 96.png"
     },
     {
       "id": "mock-power-tools-97",
@@ -3079,7 +3282,8 @@
       "priceMax": 2645,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-97/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 97.png"
     },
     {
       "id": "mock-plumbing-98",
@@ -3096,7 +3300,8 @@
       "priceMax": 2670,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-98/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/plumbing pro series 98.png"
     },
     {
       "id": "mock-safety-gear-99",
@@ -3113,7 +3318,8 @@
       "priceMax": 2695,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-99/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 99.png"
     },
     {
       "id": "mock-cement-100",
@@ -3130,7 +3336,8 @@
       "priceMax": 2720,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-100/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 100.png"
     },
     {
       "id": "mock-hand-tools-101",
@@ -3147,7 +3354,8 @@
       "priceMax": 2745,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-101/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 101.png"
     },
     {
       "id": "mock-power-tools-102",
@@ -3164,7 +3372,8 @@
       "priceMax": 2770,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-102/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 102.png"
     },
     {
       "id": "mock-plumbing-103",
@@ -3181,7 +3390,8 @@
       "priceMax": 2795,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-103/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 103.png"
     },
     {
       "id": "mock-safety-gear-104",
@@ -3198,7 +3408,8 @@
       "priceMax": 2820,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-104/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 104.png"
     },
     {
       "id": "mock-cement-105",
@@ -3215,7 +3426,8 @@
       "priceMax": 2845,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-105/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/cement pro series 105.png"
     },
     {
       "id": "mock-hand-tools-106",
@@ -3232,7 +3444,8 @@
       "priceMax": 2870,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-106/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 106.png"
     },
     {
       "id": "mock-power-tools-107",
@@ -3249,7 +3462,8 @@
       "priceMax": 2895,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-107/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 107.png"
     },
     {
       "id": "mock-plumbing-108",
@@ -3266,7 +3480,8 @@
       "priceMax": 2920,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-108/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 108.png"
     },
     {
       "id": "mock-safety-gear-109",
@@ -3283,7 +3498,8 @@
       "priceMax": 2945,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-109/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 109.png"
     },
     {
       "id": "mock-cement-110",
@@ -3300,7 +3516,8 @@
       "priceMax": 2970,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-110/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 110.png"
     },
     {
       "id": "mock-hand-tools-111",
@@ -3317,7 +3534,8 @@
       "priceMax": 2995,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-111/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 111.png"
     },
     {
       "id": "mock-power-tools-112",
@@ -3334,7 +3552,8 @@
       "priceMax": 3020,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-112/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/power tools pro series 112.png"
     },
     {
       "id": "mock-plumbing-113",
@@ -3351,7 +3570,8 @@
       "priceMax": 3045,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-113/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 113.png"
     },
     {
       "id": "mock-safety-gear-114",
@@ -3368,7 +3588,8 @@
       "priceMax": 3070,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-114/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 114.png"
     },
     {
       "id": "mock-cement-115",
@@ -3385,7 +3606,8 @@
       "priceMax": 3095,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-115/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 115.png"
     },
     {
       "id": "mock-hand-tools-116",
@@ -3402,7 +3624,8 @@
       "priceMax": 3120,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-116/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 116.png"
     },
     {
       "id": "mock-power-tools-117",
@@ -3419,7 +3642,8 @@
       "priceMax": 3145,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-117/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 117.png"
     },
     {
       "id": "mock-plumbing-118",
@@ -3436,7 +3660,8 @@
       "priceMax": 3170,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-118/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 118.png"
     },
     {
       "id": "mock-safety-gear-119",
@@ -3453,7 +3678,8 @@
       "priceMax": 3195,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-119/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/safety gear pro series 119.png"
     },
     {
       "id": "mock-cement-120",
@@ -3470,7 +3696,8 @@
       "priceMax": 3220,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-120/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 120.png"
     },
     {
       "id": "mock-hand-tools-121",
@@ -3487,7 +3714,8 @@
       "priceMax": 3245,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-121/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 121.png"
     },
     {
       "id": "mock-power-tools-122",
@@ -3504,7 +3732,8 @@
       "priceMax": 3270,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-122/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 122.png"
     },
     {
       "id": "mock-plumbing-123",
@@ -3521,7 +3750,8 @@
       "priceMax": 3295,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-123/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 123.png"
     },
     {
       "id": "mock-safety-gear-124",
@@ -3538,7 +3768,8 @@
       "priceMax": 3320,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-124/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 124.png"
     },
     {
       "id": "mock-cement-125",
@@ -3555,7 +3786,8 @@
       "priceMax": 3345,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-125/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 125.png"
     },
     {
       "id": "mock-hand-tools-126",
@@ -3572,7 +3804,8 @@
       "priceMax": 3370,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-126/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/hand tools pro series 126.png"
     },
     {
       "id": "mock-power-tools-127",
@@ -3589,7 +3822,8 @@
       "priceMax": 3395,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-127/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 127.png"
     },
     {
       "id": "mock-plumbing-128",
@@ -3606,7 +3840,8 @@
       "priceMax": 3420,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-128/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 128.png"
     },
     {
       "id": "mock-safety-gear-129",
@@ -3623,7 +3858,8 @@
       "priceMax": 3445,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-129/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 129.png"
     },
     {
       "id": "mock-cement-130",
@@ -3640,7 +3876,8 @@
       "priceMax": 3470,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-130/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 130.png"
     },
     {
       "id": "mock-hand-tools-131",
@@ -3657,7 +3894,8 @@
       "priceMax": 3495,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-131/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 131.png"
     },
     {
       "id": "mock-power-tools-132",
@@ -3674,7 +3912,8 @@
       "priceMax": 3520,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-132/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 132.png"
     },
     {
       "id": "mock-plumbing-133",
@@ -3691,7 +3930,8 @@
       "priceMax": 3545,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-133/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/plumbing pro series 133.png"
     },
     {
       "id": "mock-safety-gear-134",
@@ -3708,7 +3948,8 @@
       "priceMax": 3570,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-134/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 134.png"
     },
     {
       "id": "mock-cement-135",
@@ -3725,7 +3966,8 @@
       "priceMax": 3595,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-135/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 135.png"
     },
     {
       "id": "mock-hand-tools-136",
@@ -3742,7 +3984,8 @@
       "priceMax": 3620,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-136/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 136.png"
     },
     {
       "id": "mock-power-tools-137",
@@ -3759,7 +4002,8 @@
       "priceMax": 3645,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-137/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 137.png"
     },
     {
       "id": "mock-plumbing-138",
@@ -3776,7 +4020,8 @@
       "priceMax": 3670,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-138/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 138.png"
     },
     {
       "id": "mock-safety-gear-139",
@@ -3793,7 +4038,8 @@
       "priceMax": 3695,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-139/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 139.png"
     },
     {
       "id": "mock-cement-140",
@@ -3810,7 +4056,8 @@
       "priceMax": 3720,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-140/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/cement pro series 140.png"
     },
     {
       "id": "mock-hand-tools-141",
@@ -3827,7 +4074,8 @@
       "priceMax": 3745,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-141/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 141.png"
     },
     {
       "id": "mock-power-tools-142",
@@ -3844,7 +4092,8 @@
       "priceMax": 3770,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-142/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/power tools pro series 142.png"
     },
     {
       "id": "mock-plumbing-143",
@@ -3861,7 +4110,8 @@
       "priceMax": 3795,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-143/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 143.png"
     },
     {
       "id": "mock-safety-gear-144",
@@ -3878,7 +4128,8 @@
       "priceMax": 3820,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-144/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 144.png"
     },
     {
       "id": "mock-cement-145",
@@ -3895,7 +4146,8 @@
       "priceMax": 3845,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-145/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 145.png"
     },
     {
       "id": "mock-hand-tools-146",
@@ -3912,7 +4164,8 @@
       "priceMax": 3870,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-146/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/hand tools pro series 146.png"
     },
     {
       "id": "mock-power-tools-147",
@@ -3929,7 +4182,8 @@
       "priceMax": 3895,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-147/900/700",
-      "featured": true
+      "featured": true,
+      "images": "/subcategory/power tools pro series 147.png"
     },
     {
       "id": "mock-plumbing-148",
@@ -3946,7 +4200,8 @@
       "priceMax": 3920,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-148/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/plumbing pro series 148.png"
     },
     {
       "id": "mock-safety-gear-149",
@@ -3963,7 +4218,8 @@
       "priceMax": 3945,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-149/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/safety gear pro series 149.png"
     },
     {
       "id": "mock-cement-150",
@@ -3980,7 +4236,8 @@
       "priceMax": 3970,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-150/900/700",
-      "featured": false
+      "featured": false,
+      "images": "/subcategory/cement pro series 150.png"
     }
   ],
   "inquiries": [],
