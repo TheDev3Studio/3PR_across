@@ -25,18 +25,11 @@ const allowedOrigins = (process.env.CLIENT_URL || "")
   .filter(Boolean);
 
 app.use(helmet());
-app.use(
-  cors({
-    origin(origin, callback) {
-      const normalizedOrigin = origin ? normalizeOrigin(origin) : "";
-      if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(normalizedOrigin)) {
-        callback(null, true);
-        return;
-      }
-      callback(null, false);
-    },
-  })
-);
+app.use(cors({
+  origin: true,
+  credentials: true
+}));
+
 app.use(express.json({ limit: "1mb" }));
 app.use(morgan("dev"));
 

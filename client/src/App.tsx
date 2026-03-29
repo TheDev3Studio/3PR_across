@@ -3,7 +3,7 @@ import "./App.css";
 import { Layout } from "./components/Layout";
 import { FloatingActions } from "./components/FloatingActions";
 import { useVisitorCounter } from "./hooks/useVisitorCounter";
-import { AboutPage } from "./pages/AboutPage";
+// import { AboutPage } from "./pages/AboutPage";
 import { CatalogPage } from "./pages/CatalogPage";
 import { HomePage } from "./pages/HomePage";
 import { InquiryPage } from "./pages/InquiryPage";
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/catalog" element={<CatalogPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        {/* <Route path="/about" element={<AboutPage />} /> */}
         <Route path="/products/:id" element={<ProductDetailPage />} />
         <Route path="/inquiry" element={<InquiryPage />} />
         <Route path="*" element={<NotFoundPage />} />
