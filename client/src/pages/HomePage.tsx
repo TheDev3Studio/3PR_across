@@ -54,14 +54,14 @@ export function HomePage() {
       <section className="hero-section">
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">3pr across Product Catalog</p>
+            <p className="eyebrow">3pr across Product Catalogue</p>
             <h1>India's Trusted Industrial Supply Partner</h1>
             <p className="hero-subtext">
               From welding accessories to hydraulic valves, power tools to safety gear — 388+ industrial products across 13 categories. Bulk supply from Noida & Bhojpur across India.
             </p>
             <div className="hero-actions">
               <Link to="/catalog" className="btn btn-primary">
-                Explore Catalog
+                Explore Catalogue
               </Link>
               <Link to="/inquiry" className="btn btn-soft">
                 Quick Inquiry

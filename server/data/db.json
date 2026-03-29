@@ -4235,9 +4235,11 @@
   },
   "traffic": {
     "monthKey": "2026-03",
-    "uniqueSessions": [],
-    "uniqueCount": 0,
-    "totalVisits": 0,
-    "updatedAt": 1774743739010
+    "uniqueSessions": [
+      "visitor-1774815439364-nhh92ogt"
+    ],
+    "uniqueCount": 1,
+    "totalVisits": 2,
+    "updatedAt": 1774815440790
   }
 }
