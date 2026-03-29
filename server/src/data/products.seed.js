@@ -23,21 +23,6 @@ const products = [
     featured: true,
   },
   {
-    id: "cement-ppc-premium",
-    name: "EcoMix PPC Cement",
-    category: "Cement",
-    shortDescription: "Durable and eco-friendly PPC cement for masonry and plaster.",
-    description:
-      "Pozzolana blended cement designed for smooth finish and improved workability, ideal for plastering and masonry jobs.",
-    specs: ["Type: PPC", "Bag Size: 50kg", "Low heat hydration"],
-    priceMin: 340,
-    priceMax: 390,
-    unit: "per bag",
-    image:
-      "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=900&q=80",
-    featured: true,
-  },
-  {
     id: "hand-hammer-fiberglass",
     name: "FiberGrip Claw Hammer 16oz",
     category: "Hand Tools",

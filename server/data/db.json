@@ -1360,42 +1360,6 @@
       "images": "/subcategory/hammers misc.png"
     },
     {
-      "id": "cement-opc-53",
-      "name": "BuildStrong OPC 53 Grade Cement",
-      "category": "Cement",
-      "shortDescription": "High-strength OPC cement for RCC and structural work.",
-      "description": "Premium OPC 53 grade cement suitable for high-rise structures, beams, columns, and slabs. Delivers consistent early and long-term strength.",
-      "specs": [
-        "Grade: OPC 53",
-        "Bag Size: 50kg",
-        "Shelf Life: 3 months"
-      ],
-      "priceMin": 380,
-      "priceMax": 420,
-      "unit": "per bag",
-      "image": "https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?auto=format&fit=crop&w=900&q=80",
-      "featured": true,
-      "images": "/subcategory/buildstrong opc 53 grade cement.png"
-    },
-    {
-      "id": "cement-ppc-premium",
-      "name": "EcoMix PPC Cement",
-      "category": "Cement",
-      "shortDescription": "Durable and eco-friendly PPC cement for masonry and plaster.",
-      "description": "Pozzolana blended cement designed for smooth finish and improved workability, ideal for plastering and masonry jobs.",
-      "specs": [
-        "Type: PPC",
-        "Bag Size: 50kg",
-        "Low heat hydration"
-      ],
-      "priceMin": 340,
-      "priceMax": 390,
-      "unit": "per bag",
-      "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=900&q=80",
-      "featured": true,
-      "images": "/subcategory/ecomix ppc cement.png"
-    },
-    {
       "id": "hand-hammer-fiberglass",
       "name": "FiberGrip Claw Hammer 16oz",
       "category": "Hand Tools",
@@ -1612,24 +1576,6 @@
       "images": "/subcategory/safety gear pro series 4.png"
     },
     {
-      "id": "mock-cement-5",
-      "name": "Cement Pro Series 5",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 5 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 250,
-      "priceMax": 345,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-5/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 5.png"
-    },
-    {
       "id": "mock-hand-tools-6",
       "name": "Hand Tools Pro Series 6",
       "category": "Hand Tools",
@@ -1700,24 +1646,6 @@
       "image": "https://picsum.photos/seed/buildmart-9/900/700",
       "featured": false,
       "images": "/subcategory/safety gear pro series 9.png"
-    },
-    {
-      "id": "mock-cement-10",
-      "name": "Cement Pro Series 10",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 10 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 350,
-      "priceMax": 470,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-10/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 10.png"
     },
     {
       "id": "mock-hand-tools-11",
@@ -1792,24 +1720,6 @@
       "images": "/subcategory/safety gear pro series 14.png"
     },
     {
-      "id": "mock-cement-15",
-      "name": "Cement Pro Series 15",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 15 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 450,
-      "priceMax": 595,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-15/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 15.png"
-    },
-    {
       "id": "mock-hand-tools-16",
       "name": "Hand Tools Pro Series 16",
       "category": "Hand Tools",
@@ -1880,24 +1790,6 @@
       "image": "https://picsum.photos/seed/buildmart-19/900/700",
       "featured": false,
       "images": "/subcategory/safety gear pro series 19.png"
-    },
-    {
-      "id": "mock-cement-20",
-      "name": "Cement Pro Series 20",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 20 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 550,
-      "priceMax": 720,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-20/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 20.png"
     },
     {
       "id": "mock-hand-tools-21",
@@ -1972,24 +1864,6 @@
       "images": "/subcategory/safety gear pro series 24.png"
     },
     {
-      "id": "mock-cement-25",
-      "name": "Cement Pro Series 25",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 25 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 650,
-      "priceMax": 845,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-25/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 25.png"
-    },
-    {
       "id": "mock-hand-tools-26",
       "name": "Hand Tools Pro Series 26",
       "category": "Hand Tools",
@@ -2062,24 +1936,6 @@
       "images": "/subcategory/safety gear pro series 29.png"
     },
     {
-      "id": "mock-cement-30",
-      "name": "Cement Pro Series 30",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 30 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 750,
-      "priceMax": 970,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-30/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 30.png"
-    },
-    {
       "id": "mock-hand-tools-31",
       "name": "Hand Tools Pro Series 31",
       "category": "Hand Tools",
@@ -2150,24 +2006,6 @@
       "image": "https://picsum.photos/seed/buildmart-34/900/700",
       "featured": false,
       "images": "/subcategory/safety gear pro series 34.png"
-    },
-    {
-      "id": "mock-cement-35",
-      "name": "Cement Pro Series 35",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 35 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 850,
-      "priceMax": 1095,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-35/900/700",
-      "featured": true,
-      "images": "/subcategory/cement pro series 35.png"
     },
     {
       "id": "mock-hand-tools-36",
@@ -2332,24 +2170,6 @@
       "images": "/subcategory/safety gear pro series 44.png"
     },
     {
-      "id": "mock-cement-45",
-      "name": "Cement Pro Series 45",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 45 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 1050,
-      "priceMax": 1345,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-45/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 45.png"
-    },
-    {
       "id": "mock-hand-tools-46",
       "name": "Hand Tools Pro Series 46",
       "category": "Hand Tools",
@@ -2422,24 +2242,6 @@
       "images": "/subcategory/safety gear pro series 49.png"
     },
     {
-      "id": "mock-cement-50",
-      "name": "Cement Pro Series 50",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 50 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 1150,
-      "priceMax": 1470,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-50/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 50.png"
-    },
-    {
       "id": "mock-hand-tools-51",
       "name": "Hand Tools Pro Series 51",
       "category": "Hand Tools",
@@ -2510,24 +2312,6 @@
       "image": "https://picsum.photos/seed/buildmart-54/900/700",
       "featured": false,
       "images": "/subcategory/safety gear pro series 54.png"
-    },
-    {
-      "id": "mock-cement-55",
-      "name": "Cement Pro Series 55",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 55 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 1250,
-      "priceMax": 1595,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-55/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 55.png"
     },
     {
       "id": "mock-hand-tools-56",
@@ -3862,24 +3646,6 @@
       "images": "/subcategory/safety gear pro series 129.png"
     },
     {
-      "id": "mock-cement-130",
-      "name": "Cement Pro Series 130",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 130 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 2750,
-      "priceMax": 3470,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-130/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 130.png"
-    },
-    {
       "id": "mock-hand-tools-131",
       "name": "Hand Tools Pro Series 131",
       "category": "Hand Tools",
@@ -3952,24 +3718,6 @@
       "images": "/subcategory/safety gear pro series 134.png"
     },
     {
-      "id": "mock-cement-135",
-      "name": "Cement Pro Series 135",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 135 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 2850,
-      "priceMax": 3595,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-135/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 135.png"
-    },
-    {
       "id": "mock-hand-tools-136",
       "name": "Hand Tools Pro Series 136",
       "category": "Hand Tools",
@@ -4004,60 +3752,6 @@
       "image": "https://picsum.photos/seed/buildmart-137/900/700",
       "featured": false,
       "images": "/subcategory/power tools pro series 137.png"
-    },
-    {
-      "id": "mock-plumbing-138",
-      "name": "Plumbing Pro Series 138",
-      "category": "Plumbing",
-      "shortDescription": "Reliable plumbing product designed for site performance.",
-      "description": "Mock catalog item 138 for Plumbing. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 2910,
-      "priceMax": 3670,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-138/900/700",
-      "featured": false,
-      "images": "/subcategory/plumbing pro series 138.png"
-    },
-    {
-      "id": "mock-safety-gear-139",
-      "name": "Safety Gear Pro Series 139",
-      "category": "Safety Gear",
-      "shortDescription": "Reliable safety gear product designed for site performance.",
-      "description": "Mock catalog item 139 for Safety Gear. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 2930,
-      "priceMax": 3695,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-139/900/700",
-      "featured": false,
-      "images": "/subcategory/safety gear pro series 139.png"
-    },
-    {
-      "id": "mock-cement-140",
-      "name": "Cement Pro Series 140",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 140 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 2950,
-      "priceMax": 3720,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-140/900/700",
-      "featured": true,
-      "images": "/subcategory/cement pro series 140.png"
     },
     {
       "id": "mock-hand-tools-141",
@@ -4132,24 +3826,6 @@
       "images": "/subcategory/safety gear pro series 144.png"
     },
     {
-      "id": "mock-cement-145",
-      "name": "Cement Pro Series 145",
-      "category": "Cement",
-      "shortDescription": "Reliable cement product designed for site performance.",
-      "description": "Mock catalog item 145 for Cement. Replace with real SKUs and images during onboarding.",
-      "specs": [
-        "Warranty: 6 months",
-        "Brand: BuildMart",
-        "Stock: In stock"
-      ],
-      "priceMin": 3050,
-      "priceMax": 3845,
-      "unit": "per piece",
-      "image": "https://picsum.photos/seed/buildmart-145/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 145.png"
-    },
-    {
       "id": "mock-hand-tools-146",
       "name": "Hand Tools Pro Series 146",
       "category": "Hand Tools",
@@ -4222,6 +3898,312 @@
       "images": "/subcategory/safety gear pro series 149.png"
     },
     {
+      "id": "mock-plumbing-138",
+      "name": "Plumbing Pro Series 138",
+      "category": "Plumbing",
+      "shortDescription": "Reliable plumbing product designed for site performance.",
+      "description": "Mock catalog item 138 for Plumbing. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2910,
+      "priceMax": 3670,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-138/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-safety-gear-139",
+      "name": "Safety Gear Pro Series 139",
+      "category": "Safety Gear",
+      "shortDescription": "Reliable safety gear product designed for site performance.",
+      "description": "Mock catalog item 139 for Safety Gear. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2930,
+      "priceMax": 3695,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-139/900/700",
+      "featured": false
+    },
+    {
+      "id": "cement-opc-53",
+      "name": "BuildStrong OPC 53 Grade Cement",
+      "category": "Cement",
+      "shortDescription": "High-strength OPC cement for RCC and structural work.",
+      "description": "Premium OPC 53 grade cement suitable for high-rise structures, beams, columns, and slabs. Delivers consistent early and long-term strength.",
+      "specs": [
+        "Grade: OPC 53",
+        "Bag Size: 50kg",
+        "Shelf Life: 3 months"
+      ],
+      "priceMin": 380,
+      "priceMax": 420,
+      "unit": "per bag",
+      "image": "https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "cement-ppc-premium",
+      "name": "EcoMix PPC Cement",
+      "category": "Cement",
+      "shortDescription": "Durable and eco-friendly PPC cement for masonry and plaster.",
+      "description": "Pozzolana blended cement designed for smooth finish and improved workability, ideal for plastering and masonry jobs.",
+      "specs": [
+        "Type: PPC",
+        "Bag Size: 50kg",
+        "Low heat hydration"
+      ],
+      "priceMin": 340,
+      "priceMax": 390,
+      "unit": "per bag",
+      "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=900&q=80",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-5",
+      "name": "Cement Pro Series 5",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 5 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 250,
+      "priceMax": 345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-5/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-10",
+      "name": "Cement Pro Series 10",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 10 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 350,
+      "priceMax": 470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-10/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-15",
+      "name": "Cement Pro Series 15",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 15 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 450,
+      "priceMax": 595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-15/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-20",
+      "name": "Cement Pro Series 20",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 20 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 550,
+      "priceMax": 720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-20/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-25",
+      "name": "Cement Pro Series 25",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 25 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 650,
+      "priceMax": 845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-25/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-30",
+      "name": "Cement Pro Series 30",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 30 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 750,
+      "priceMax": 970,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-30/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-35",
+      "name": "Cement Pro Series 35",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 35 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 850,
+      "priceMax": 1095,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-35/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-45",
+      "name": "Cement Pro Series 45",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 45 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1050,
+      "priceMax": 1345,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-45/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-50",
+      "name": "Cement Pro Series 50",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 50 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1150,
+      "priceMax": 1470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-50/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-55",
+      "name": "Cement Pro Series 55",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 55 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 1250,
+      "priceMax": 1595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-55/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-130",
+      "name": "Cement Pro Series 130",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 130 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2750,
+      "priceMax": 3470,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-130/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-135",
+      "name": "Cement Pro Series 135",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 135 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2850,
+      "priceMax": 3595,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-135/900/700",
+      "featured": false
+    },
+    {
+      "id": "mock-cement-140",
+      "name": "Cement Pro Series 140",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 140 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 2950,
+      "priceMax": 3720,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-140/900/700",
+      "featured": true
+    },
+    {
+      "id": "mock-cement-145",
+      "name": "Cement Pro Series 145",
+      "category": "Cement",
+      "shortDescription": "Reliable cement product designed for site performance.",
+      "description": "Mock catalog item 145 for Cement. Replace with real SKUs and images during onboarding.",
+      "specs": [
+        "Warranty: 6 months",
+        "Brand: BuildMart",
+        "Stock: In stock"
+      ],
+      "priceMin": 3050,
+      "priceMax": 3845,
+      "unit": "per piece",
+      "image": "https://picsum.photos/seed/buildmart-145/900/700",
+      "featured": false
+    },
+    {
       "id": "mock-cement-150",
       "name": "Cement Pro Series 150",
       "category": "Cement",
@@ -4236,8 +4218,7 @@
       "priceMax": 3970,
       "unit": "per piece",
       "image": "https://picsum.photos/seed/buildmart-150/900/700",
-      "featured": false,
-      "images": "/subcategory/cement pro series 150.png"
+      "featured": false
     }
   ],
   "inquiries": [],

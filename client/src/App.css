@@ -200,6 +200,7 @@
 .category-card-content {
   position: relative;
   z-index: 2;
+  transition: opacity 0.22s ease, transform 0.22s ease;
 }
 
 .category-preview {
@@ -217,7 +218,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, rgba(42, 24, 9, 0.38), rgba(42, 24, 9, 0.72));
+  background: transparent;
   z-index: 1;
 }
 
@@ -231,17 +232,24 @@
 .category-card:hover {
   transform: translateY(-6px);
   border-color: rgba(175, 120, 56, 0.45);
-  background: linear-gradient(165deg, #ffffff, #fff5e6);
+  background: var(--white);
   box-shadow: 0 16px 36px rgba(88, 52, 20, 0.2);
 }
 
 .category-card:hover::after {
   inset: -85% 35% 35% -85%;
+  opacity: 0;
 }
 
 .category-card:hover .category-preview,
 .category-card:focus-visible .category-preview {
   transform: translateY(0%);
+}
+
+.category-card:hover .category-card-content,
+.category-card:focus-visible .category-card-content {
+  opacity: 0;
+  transform: translateY(8px);
 }
 
 .category-card:focus-visible {
