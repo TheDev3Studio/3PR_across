@@ -5,6 +5,7 @@ import { ProductCard } from "../components/ProductCard";
 import { categories } from "../constants";
 import type { Product } from "../types";
 import { SEO } from "../components/SEO";
+import { FiSearch } from "react-icons/fi";
 
 export function CatalogPage() {
   const [params, setParams] = useSearchParams();
@@ -93,18 +94,24 @@ export function CatalogPage() {
                 <h1>Product Catalogue</h1>
                 <p>{totalLabel}</p>
               </div>
-              <input
-                className="search-input"
-                placeholder="Search products"
-                value={query}
-                onChange={(event) => {
-                  const value = event.target.value;
-                  setParams({
-                    ...(selectedCategory ? { category: selectedCategory } : {}),
-                    ...(value ? { q: value } : {}),
-                  });
-                }}
-              />
+              <div className="search-box">
+                <div className="search-icon">
+                  <FiSearch />
+                </div>
+
+                <input
+                  className="search-input"
+                  placeholder="Search products"
+                  value={query}
+                  onChange={(event) => {
+                    const value = event.target.value;
+                    setParams({
+                      ...(selectedCategory ? { category: selectedCategory } : {}),
+                      ...(value ? { q: value } : {}),
+                    });
+                  }}
+                />
+              </div>
               <button
                 className="drawer-toggle"
                 onClick={() => setDrawerOpen(true)}
