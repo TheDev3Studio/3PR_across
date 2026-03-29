@@ -429,6 +429,7 @@
   gap: 14px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .catalog-toolbar h1 {
@@ -450,6 +451,13 @@
 
 .search-input {
   width: min(360px, 100%);
+}
+
+.catalog-toolbar .search-input {
+  width: clamp(180px, 20vw, 240px);
+  min-width: 180px;
+  max-width: 240px;
+  flex: 0 0 auto;
 }
 
 .product-detail {
@@ -545,6 +553,57 @@
 .about-list {
   margin: 0;
   padding-left: 18px;
+}
+
+.about-pill-list {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about-pill {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--white);
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.about-value-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.about-value {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.about-value h3 {
+  margin-top: 0;
+}
+
+.about-cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.about-process {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.about-process-item {
+  padding-left: 2px;
 }
 
 .inquiry-card,
@@ -745,7 +804,9 @@
   }
 
   .about-grid,
-  .about-metrics {
+  .about-metrics,
+  .about-value-grid,
+  .about-cta {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -813,6 +874,13 @@
     width: 100%;
   }
 
+  .catalog-toolbar .search-input {
+    width: min(240px, 100%);
+    min-width: 0;
+    max-width: 240px;
+    flex: 0 0 auto;
+  }
+
   .product-card img {
     height: 200px;
   }
@@ -827,7 +895,9 @@
   }
 
   .about-grid,
-  .about-metrics {
+  .about-metrics,
+  .about-value-grid,
+  .about-cta {
     grid-template-columns: 1fr;
   }
 

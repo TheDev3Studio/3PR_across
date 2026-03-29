@@ -75,9 +75,82 @@ function writeDb(db) {
   fs.writeFileSync(DB_FILE, JSON.stringify(db, null, 2));
 }
 
+function toText(value, fallback = "") {
+  return typeof value === "string" ? value : fallback;
+}
+
+function resolveImage(product) {
+  if (typeof product.image === "string" && product.image.trim()) {
+    return product.image.trim();
+  }
+
+  if (typeof product.images === "string" && product.images.trim()) {
+    return product.images.trim();
+  }
+
+  if (Array.isArray(product.images) && typeof product.images[0] === "string" && product.images[0].trim()) {
+    return product.images[0].trim();
+  }
+
+  if (typeof product.imageUrl === "string" && product.imageUrl.trim()) {
+    return product.imageUrl.trim();
+  }
+
+  if (typeof product.subcategoryImage === "string" && product.subcategoryImage.trim()) {
+    return product.subcategoryImage.trim();
+  }
+
+  return "/general items.png";
+}
+
+function toSpecs(product) {
+  if (Array.isArray(product.specs) && product.specs.length > 0) {
+    return product.specs;
+  }
+
+  if (Array.isArray(product.variants) && product.variants.length > 0) {
+    return product.variants;
+  }
+
+  return ["Please contact us for full specifications."];
+}
+
+function normalizeProduct(raw) {
+  const id = String(raw.id ?? raw.slug ?? `product-${Date.now()}`);
+  const name = toText(raw.name, "Industrial Product");
+  const category = toText(raw.category, "General Items");
+  const specs = toSpecs(raw);
+
+  const generatedShortDescription = specs.length
+    ? `Available variants/specs: ${specs.slice(0, 3).join(", ")}`
+    : "Industrial product for project requirements.";
+
+  const shortDescription = toText(raw.shortDescription, generatedShortDescription);
+  const description = toText(raw.description, shortDescription);
+  const priceMin = Number(raw.priceMin) || 0;
+  const priceMax = Number(raw.priceMax) || priceMin;
+  const unit = toText(raw.unit, "per unit");
+  const image = resolveImage(raw);
+
+  return {
+    id,
+    name,
+    category,
+    shortDescription,
+    description,
+    specs,
+    priceMin,
+    priceMax,
+    unit,
+    image,
+    featured: Boolean(raw.featured),
+  };
+}
+
 function getProducts({ category, query }) {
   const db = readDb();
-  return db.products.filter((product) => {
+  const normalizedProducts = db.products.map((item) => normalizeProduct(item));
+  return normalizedProducts.filter((product) => {
     const categoryMatch = category ? product.category === category : true;
     const q = query?.trim().toLowerCase();
     const queryMatch = q
@@ -92,12 +165,17 @@ function getProducts({ category, query }) {
 
 function getProductById(id) {
   const db = readDb();
-  return db.products.find((item) => item.id === id);
+  const needle = String(id).trim();
+  const item = db.products.find((entry) => String(entry.id) === needle || String(entry.slug || "") === needle);
+  return item ? normalizeProduct(item) : undefined;
 }
 
 function getFeaturedProducts(limit = 8) {
   const db = readDb();
-  return db.products.filter((item) => item.featured).slice(0, limit);
+  return db.products
+    .filter((item) => item.featured)
+    .map((item) => normalizeProduct(item))
+    .slice(0, limit);
 }
 
 function addInquiry(inquiry) {

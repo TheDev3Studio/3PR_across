@@ -1,11 +1,45 @@
+import { Link } from "react-router-dom";
+import { categories } from "../constants";
 import { SEO } from "../components/SEO";
 
 export function AboutPage() {
+  const highlights = [
+    { label: "Product Categories", value: "13+" },
+    { label: "Catalog-ready SKUs", value: "300+" },
+    { label: "Support Availability", value: "Same Day" },
+    { label: "Locations", value: "Noida & Bhojpur" },
+  ];
+
+  const values = [
+    {
+      title: "Quality-First Sourcing",
+      text: "We prioritize dependable brands and fit-for-use products so teams can avoid costly rework.",
+    },
+    {
+      title: "Practical Recommendations",
+      text: "Our team understands industrial buying needs and suggests parts that match your actual use case.",
+    },
+    {
+      title: "Fast Human Support",
+      text: "Urgent requirement? We keep communication direct on call and WhatsApp to reduce delays.",
+    },
+    {
+      title: "Long-Term Partnership",
+      text: "We aim to become your repeat procurement partner with consistent pricing and reliable service.",
+    },
+  ];
+
+  const processSteps = [
+    "Share your requirement, quantity, and delivery timeline.",
+    "Get shortlisted options with pricing clarity and availability.",
+    "Confirm final items and receive streamlined fulfillment support.",
+  ];
+
   return (
     <>
       <SEO
         title="About Us"
-        description="Learn about 3pr across, our product sourcing standards, support model, and commitment to industrial buyers across India."
+        description="Learn about 3pr across, our sourcing standards, industrial product expertise, and support commitment for buyers across India."
         path="/about"
       />
 
@@ -13,48 +47,37 @@ export function AboutPage() {
         <div className="container about-hero">
           <article className="about-card reveal">
             <p className="eyebrow">About 3pr across</p>
-            <h1>Your Reliable Source for Industrial Supplies</h1>
+            <h1>Your Reliable Partner for Industrial Procurement</h1>
             <p>
-             We are a GST-registered industrial supply company dealing in welding accessories, 
-             electrical items, power tools, safety equipment, hydraulic components, and more.
-             Operating from Noida and Bhojpur, we supply a wide range of industrial products to meet the procurement needs of factories, contractors, and maintenance teams.
+              3pr across is a GST-registered industrial supply company serving factories, contractors,
+              and maintenance teams with practical, site-ready products. From Noida and Bhojpur, we
+              support procurement requirements across welding, tools, electrical, safety, hydraulic,
+              and general industrial categories.
             </p>
             <p>
-              Whether you need safety items, electrical components, power tools, bearings, or hydraulic valves,
-              we help you source the right items without delaying your project schedule.
+              Whether you need a one-time urgent item or recurring bulk supply, our focus stays the same:
+              help you source the right materials quickly without compromising quality or timelines.
             </p>
-
-            <div className="about-metrics" aria-label="Company highlights">
-              <div className="about-metric">
-                <strong>13+</strong>
-                <span>Core product categories</span>
-              </div>
-              <div className="about-metric">
-                <strong>300+</strong>
-                <span>Catalog-ready products</span>
-              </div>
-              <div className="about-metric">
-                <strong>Same Day</strong>
-                <span>Inquiry response support</span>
-              </div>
-            </div>
           </article>
 
           <aside className="about-card reveal">
-            <h2>How We Work</h2>
-            <ul className="about-list">
-              <li>Requirement-first consultation before suggesting products.</li>
-              <li>Focus on quality, compatibility, and fit-for-use recommendations.</li>
-              <li>Clear pricing guidance for both small and bulk quantity needs.</li>
-              <li>Quick support via call and WhatsApp for urgent project requests.</li>
-            </ul>
-             <br />
-            <h2>Why Buyers Choose Us</h2>
-            <ul className="about-list">
-              <li>Wide industrial range under one supplier relationship.</li>
-              <li>Simple inquiry process with direct human support.</li>
-              <li>Reliable fulfillment coordination for site timelines.</li>
-            </ul>
+            <h2>At a Glance</h2>
+            <div className="about-metrics" aria-label="Company highlights">
+              {highlights.map((item) => (
+                <div key={item.label} className="about-metric">
+                  <strong>{item.value}</strong>
+                  <span>{item.label}</span>
+                </div>
+              ))}
+            </div>
+            <div className="hero-actions">
+              <Link to="/catalog" className="btn btn-primary">
+                Explore Catalog
+              </Link>
+              <Link to="/inquiry" className="btn btn-soft">
+                Send Inquiry
+              </Link>
+            </div>
           </aside>
         </div>
       </section>
@@ -62,43 +85,67 @@ export function AboutPage() {
       <section className="section">
         <div className="container">
           <div className="section-head">
-            <h2>What You Can Expect</h2>
+            <h2>What We Supply</h2>
+          </div>
+          <p>
+            We maintain a broad industrial range so buyers can source multiple requirements under one
+            supplier relationship.
+          </p>
+          <div className="about-pill-list" aria-label="Industrial supply categories">
+            {categories.map((category) => (
+              <span key={category} className="about-pill">
+                {category}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-soft">
+        <div className="container">
+          <div className="section-head">
+            <h2>Our Values</h2>
           </div>
 
-          <div className="about-grid">
-            <article className="about-block reveal">
-              <h3>Product Confidence</h3>
-              <p>
-                We prioritize practical, site-relevant products and help avoid mismatched items that slow down
-                execution.
-              </p>
-            </article>
-
-            <article className="about-block reveal">
-              <h3>Responsive Communication</h3>
-              <p>
-                Our team keeps communication direct and fast so you can move from inquiry to purchase without
-                waiting in long loops.
-              </p>
-            </article>
-
-            <article className="about-block reveal">
-              <h3>Long-Term Support</h3>
-              <p>
-                We aim to be a recurring procurement partner, not a one-time seller, by staying consistent in
-                service and support.
-              </p>
-            </article>
+          <div className="about-value-grid">
+            {values.map((value) => (
+              <article key={value.title} className="about-value reveal">
+                <h3>{value.title}</h3>
+                <p>{value.text}</p>
+              </article>
+            ))}
           </div>
-{/* 
-          <div className="hero-actions" style={{ marginTop: "22px" }}>
-            <Link to="/catalog" className="btn btn-primary">
-              Explore Product Catalog
-            </Link>
-            <Link to="/inquiry" className="btn btn-soft">
-              Send Inquiry
-            </Link>
-          </div> */}
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container about-cta">
+          <article className="about-card reveal">
+            <h2>How We Work With You</h2>
+            <ol className="about-process">
+              {processSteps.map((step) => (
+                <li key={step} className="about-process-item">
+                  {step}
+                </li>
+              ))}
+            </ol>
+          </article>
+
+          <article className="about-card reveal">
+            <h2>Ready to Source Smarter?</h2>
+            <p>
+              Tell us what your project needs and we will help you shortlist the right products with
+              quick turnaround.
+            </p>
+            <div className="hero-actions">
+              <Link to="/inquiry" className="btn btn-primary">
+                Start an Inquiry
+              </Link>
+              <Link to="/catalog" className="btn btn-soft">
+                Browse Products
+              </Link>
+            </div>
+          </article>
         </div>
       </section>
     </>

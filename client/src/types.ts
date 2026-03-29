@@ -1,9 +1,17 @@
 export type Category =
-  | "Cement"
-  | "Hand Tools"
-  | "Power Tools"
-  | "Plumbing"
-  | "Safety Gear";
+  "Welding Accessories & Spare Parts"
+  "Power Tools & Spare Parts"
+  "Electrical Items"
+  "Tools & TCT Core Cutter & Dill bits"
+  "Safety Items"
+  "Hydraulic Items & Valves"
+  "Measuring & Testing Instruments"
+  "Nut Bolts & Washers"
+  "Belts & Coupling"
+  "Bearing"
+  "General Items"
+  "Oil seal"
+  "Tools";
 
 export interface Product {
   id: string;

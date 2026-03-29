@@ -73,9 +73,9 @@ export function ProductDetailPage() {
                 <li key={spec}>{spec}</li>
               ))}
             </ul>
-            <strong>
+            {/* <strong>
               Rs. {product.priceMin} - {product.priceMax} {product.unit}
-            </strong>
+            </strong> */}
             <div className="detail-actions">
               <Link to={`/inquiry?product=${encodeURIComponent(product.name)}`} className="btn btn-primary">
                 Send Inquiry

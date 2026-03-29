@@ -13,9 +13,9 @@ export function ProductCard({ product }: { product: Product }) {
           <summary>More description</summary>
           <p>{product.description}</p>
         </details>
-        <strong>
-          Rs. {product.priceMin} - {product.priceMax} {product.unit}
-        </strong>
+        {/* <strong>
+           {product.priceMin} - {product.priceMax} {product.unit}
+        </strong> */}
         <div className="product-actions">
           <Link className="btn btn-soft" to={`/products/${product.id}`}>
             View Details

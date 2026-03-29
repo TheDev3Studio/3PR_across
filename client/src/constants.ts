@@ -11,25 +11,25 @@ export const categories = [
   "Bearing",
   "General Items",
   "Oil seal",
-  "tools"
+  "Tools"
 
 
 ] as const;
 
 export const categoryPreviewImages: Record<(typeof categories)[number], string> = {
-  "Welding Accessories & Spare Parts": "/welding Accessories & Spare Part.png",
-  "Power Tools & Spare Parts": "/All Kinds of Power Tools Accessories and Spare Parts.png",
-  "Electrical Items": "/Electrical Items.png",
-  "Tools & TCT Core Cutter & Dill bits": "/tools & TCT core cutter & drills bits.png",
-  "Safety Items": "/safety items.png",
-  "Hydraulic Items & Valves": "/hydraulic items and valve.png",
-  "Measuring & Testing Instruments": "/meauring and testing instruments.png",
-  "Nut Bolts & Washers": "/nut bolts & washer.png",
-  "Belts & Coupling": "/Belt and coupling.png",
-  Bearing: "/bearing.png",
-  "General Items": "/general items.png",
-  "Oil seal": "/oil seal.png",
-  tools: "/tools.png",
+  "Welding Accessories & Spare Parts": "category/welding Accessories & Spare Part.png",
+  "Power Tools & Spare Parts": "category/All Kinds of Power Tools Accessories and Spare Parts.png",
+  "Electrical Items": "category/Electrical Items.png",
+  "Tools & TCT Core Cutter & Dill bits": "category/tools & TCT core cutter & drills bits.png",
+  "Safety Items": "category/safety items.png",
+  "Hydraulic Items & Valves": "category/hydraulic items and valve.png",
+  "Measuring & Testing Instruments": "category/meauring and testing instruments.png",
+  "Nut Bolts & Washers": "category/nut bolts & washer.png",
+  "Belts & Coupling": "category/Belt and coupling.png",
+  Bearing: "category/bearing.png",
+  "General Items": "category/general items.png",
+  "Oil seal": "category/oil seal.png",
+  Tools: "category/tools.png",
 };
 
 export const testimonials = [
