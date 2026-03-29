@@ -11,6 +11,7 @@ export function CatalogPage() {
   const [items, setItems] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const selectedCategory = params.get("category") || "";
   const query = params.get("q") || "";
@@ -28,6 +29,14 @@ export function CatalogPage() {
       .finally(() => setLoading(false));
   }, [selectedCategory, query]);
 
+  function handleCategory(category: string) {
+    setParams({
+      ...(query ? { q: query } : {}),
+      ...(category ? { category } : {}),
+    });
+    setDrawerOpen(false);
+  }
+
   const totalLabel = useMemo(() => `${items.length} products found`, [items.length]);
 
   return (
@@ -39,11 +48,31 @@ export function CatalogPage() {
       />
       <section className="section">
         <div className="container catalog-layout">
-          <aside className="catalog-sidebar reveal" aria-label="Product category filters">
-            <h2>Filters</h2>
+
+          {drawerOpen && (
+            <div
+              className="drawer-overlay"
+              onClick={() => setDrawerOpen(false)}
+            />
+          )}
+
+          <aside
+            className={`catalog-sidebar reveal ${drawerOpen ? "drawer-open" : ""}`}
+            aria-label="Product category filters"
+          >
+            <div className="drawer-header">
+              <h2>Filters</h2>
+              <button
+                className="drawer-close"
+                onClick={() => setDrawerOpen(false)}
+                aria-label="Close filters"
+              >
+                ✕
+              </button>
+            </div>
             <button
               className={`filter-link ${selectedCategory ? "" : "active"}`}
-              onClick={() => setParams(query ? { q: query } : {})}
+              onClick={() => handleCategory("")}
             >
               All Categories
             </button>
@@ -51,12 +80,7 @@ export function CatalogPage() {
               <button
                 key={category}
                 className={`filter-link ${selectedCategory === category ? "active" : ""}`}
-                onClick={() =>
-                  setParams({
-                    ...(query ? { q: query } : {}),
-                    category,
-                  })
-                }
+                onClick={() => handleCategory(category)}
               >
                 {category}
               </button>
@@ -81,6 +105,13 @@ export function CatalogPage() {
                   });
                 }}
               />
+              <button
+                className="drawer-toggle"
+                onClick={() => setDrawerOpen(true)}
+                aria-label="Open filters"
+              >
+                ☰ Filters
+              </button>
             </div>
 
             {loading ? <p>Loading products...</p> : null}
