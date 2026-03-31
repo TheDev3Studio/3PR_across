@@ -12,13 +12,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="site-shell">
       <header className="topbar">
         <div className="container topbar-inner">
-         
+
           <Link to="/" className="brand" aria-label="3pr across home">
-  <div className="brand-wrapper">
-    <img src="/logo.svg" alt="logo" className="logo" />
-    <h3 className="brand-name">3PR ACROSS</h3>
-  </div>
-</Link>
+            <div className="brand-wrapper">
+              <img
+                src="/logo.svg"
+                alt="logo"
+                className="logo"
+
+              />
+              <h3 className="brand-name">3PR ACROSS</h3>
+            </div>
+          </Link>
           <nav className="nav">
             {navItems.map((item) => (
               <NavLink
