@@ -12,13 +12,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="site-shell">
       <header className="topbar">
         <div className="container topbar-inner">
+         
           <Link to="/" className="brand" aria-label="3pr across home">
-            <span className="brand-mark">BM</span>
-            <div>
-              <strong>3pr across</strong>
-              <p>Product Catalog</p>
-            </div>
-          </Link>
+  <div className="brand-wrapper">
+    <img src="/logo.svg" alt="logo" className="logo" />
+    <h3 className="brand-name">3PR ACROSS</h3>
+  </div>
+</Link>
           <nav className="nav">
             {navItems.map((item) => (
               <NavLink
@@ -42,7 +42,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h5>Quick Contact</h5>
             <p>Phone: +91 90000 12345</p>
-            <p>Email: hello@buildmart.in</p>
+            <p>Email: 3pracross@gmail.com</p>
           </div>
           <div>
             <h5>Location</h5>
