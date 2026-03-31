@@ -5,7 +5,7 @@ import { ProductCard } from "../components/ProductCard";
 import { categories } from "../constants";
 import type { Product } from "../types";
 import { SEO } from "../components/SEO";
-import { FiSearch } from "react-icons/fi";
+// import { FiSearch } from "react-icons/fi";
 
 export function CatalogPage() {
   const [params, setParams] = useSearchParams();
@@ -96,7 +96,7 @@ export function CatalogPage() {
               </div>
               <div className="search-box">
                 <div className="search-icon">
-                  <FiSearch />
+                  {/* <FiSearch /> */}
                 </div>
 
                 <input

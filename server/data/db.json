@@ -1358,25 +1358,19 @@
         "4 Inch Emery Wheel"
       ],
       "images": "/subcategory/hammers misc.png"
-    }
-  ],
-  "inquiries": [],
-  "visitors": {
-    "live": 0,
-    "today": 0
-  },
-  "_meta": {
-    "source": "3PR Across Private Limited — Official Product Catalog",
-    "structure": "Each product = one product group with multiple variants (sizes/types/brands)",
-    "note": "Same-type products are grouped together e.g. Contact Tips is ONE product with 7 size variants",
-    "total_product_groups": 100,
-    "total_categories": 13
-  },
-  "traffic": {
-    "monthKey": "2026-03",
-    "uniqueSessions": [],
-    "uniqueCount": 0,
-    "totalVisits": 0,
-    "updatedAt": 1774743739010
-  }
-}
+    },
+    {
+      "id": "cement-opc-53",
+      "name": "BuildStrong OPC 53 Grade Cement",
+      "category": "Cement",
+      "shortDescription": "High-strength OPC cement for RCC and structural work.",
+      "description": "Premium OPC 53 grade cement suitable for high-rise structures, beams, columns, and slabs. Delivers consistent early and long-term strength.",
+      "specs": [
+        "Grade: OPC 53",
+        "Bag Size: 50kg",
+        "Shelf Life: 3 months"
+      ],
+      "priceMin": 380,
+      "priceMax": 420,
+      "unit": "per bag",
+      "image": "https://images.unsplash.c
