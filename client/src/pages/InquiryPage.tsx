@@ -65,9 +65,10 @@ export function InquiryPage() {
                 />
               </label>
               <label>
-                Email
+                Email *
                 <input
                   type="email"
+                  required
                   value={form.email}
                   onChange={(event) => setForm({ ...form, email: event.target.value })}
                 />
