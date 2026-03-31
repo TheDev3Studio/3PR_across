@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -8,6 +9,8 @@ const navItems = [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="site-shell">
       <header className="topbar">
@@ -19,17 +22,29 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 src="/logo.svg"
                 alt="logo"
                 className="logo"
-
               />
               <h3 className="brand-name">3PR ACROSS</h3>
             </div>
           </Link>
-          <nav className="nav">
+
+          {/* ✅ Hamburger Button */}
+          <button
+            className="hamburger"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            ☰
+          </button>
+
+          {/* ✅ Nav */}
+          <nav className={`nav ${menuOpen ? "open" : ""}`}>
             {navItems.map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
-                className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
+                onClick={() => setMenuOpen(false)} // close after click
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
               >
                 {item.label}
               </NavLink>
@@ -37,7 +52,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </nav>
         </div>
       </header>
+
       <main>{children}</main>
+
       <footer className="footer">
         <div className="container footer-grid">
           <div>
