@@ -1373,10 +1373,13 @@
     "total_categories": 13
   },
   "traffic": {
-    "monthKey": "2026-03",
-    "uniqueSessions": [],
-    "uniqueCount": 0,
-    "totalVisits": 0,
-    "updatedAt": 1774743739010
+    "monthKey": "2026-04",
+    "uniqueSessions": [
+      "visitor-1774730692973-1dxgow5z",
+      "visitor-1774469083274-t0he3htj"
+    ],
+    "uniqueCount": 2,
+    "totalVisits": 3,
+    "updatedAt": 1774986465858
   }
 }
