@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const bcrypt = require("bcryptjs");
-const { products } = require("../data/products.seed");
+// const { products } = require("../data/products.seed");
 
 const DATA_DIR = path.join(__dirname, "../../data");
 const DB_FILE = path.join(DATA_DIR, "db.json");
@@ -36,7 +36,7 @@ function ensureDb() {
   if (!fs.existsSync(DB_FILE)) {
     const adminHash = bcrypt.hashSync(process.env.ADMIN_PASSWORD || "buildmart123", 10);
     const initial = {
-      products,
+      products:[],
       inquiries: [],
       visitors: {},
       traffic: createInitialTraffic(),
@@ -52,11 +52,11 @@ function ensureDb() {
   }
 
   const current = JSON.parse(fs.readFileSync(DB_FILE, "utf-8"));
-  const existingIds = new Set((current.products || []).map((item) => item.id));
-  const missingSeedProducts = products.filter((item) => !existingIds.has(item.id));
-  if (missingSeedProducts.length > 0) {
-    current.products = [...(current.products || []), ...missingSeedProducts];
-  }
+  // const existingIds = new Set((current.products || []).map((item) => item.id));
+  // const missingSeedProducts = products.filter((item) => !existingIds.has(item.id));
+  // if (missingSeedProducts.length > 0) {
+  //   current.products = [...(current.products || []), ...missingSeedProducts];
+  // }
 
   if (!current.traffic || typeof current.traffic !== "object") {
     current.traffic = createInitialTraffic();
