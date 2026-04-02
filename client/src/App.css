@@ -854,14 +854,15 @@
 }
 
 .live-badge {
-  top: 94px;
-  background: #fff7e7;
-  border: 1px solid var(--border);
-  color: var(--brown-800);
-  padding: 10px 14px;
-  font-weight: 700;
-  display: grid;
-  gap: 2px;
+  background: #f5efe6;
+  padding: 10px 16px;
+  border-radius: 15px; /* 🔥 oval hata diya */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap; /* 🔥 ek line me text */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 14px;
 }
 
 .live-badge strong {
@@ -874,7 +875,7 @@
   color: var(--slate-700);
 }
 
-.whatsapp-float,
+/* .whatsapp-float, */
 .inquiry-float {
   text-decoration: none;
   color: white;
@@ -882,10 +883,10 @@
   font-weight: 700;
 }
 
-.whatsapp-float {
+/* .whatsapp-float {
   bottom: 22px;
   background: #1fa760;
-}
+} */
 
 .inquiry-float {
   bottom: 78px;

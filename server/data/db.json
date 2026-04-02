@@ -1360,7 +1360,17 @@
       "images": "/subcategory/hammers misc.png"
     }
   ],
-  "inquiries": [],
+  "inquiries": [
+    {
+      "id": "inq-1775163594598",
+      "createdAt": "2026-04-02T20:59:54.598Z",
+      "name": "The Dev Studio",
+      "phone": "6206140151",
+      "email": "thed3vstudio@gmail.com",
+      "productInterest": "cvbn",
+      "message": "bhg7"
+    }
+  ],
   "visitors": {
     "live": 0,
     "today": 0

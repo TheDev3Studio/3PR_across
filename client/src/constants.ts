@@ -35,7 +35,7 @@ export const categoryPreviewImages: Record<(typeof categories)[number], string> 
 export const testimonials = [
   {
     name: "Mohan Builders",
-    quote: "Reliable supply and fair pricing. Their cement quality is consistent every time.",
+    quote: "Reliable supply and fair pricing. Their quality is consistent every time.",
   },
   {
     name: "Ritika Interiors",
