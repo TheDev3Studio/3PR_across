@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import { useState } from "react";
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -21,7 +20,6 @@ const emails = [
 ].filter(Boolean);
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="site-shell">
@@ -58,7 +56,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h5>Quick Contact</h5>
 
-            {/* 📞 Numbers in one line */}
             <p>
               <strong>Phone: </strong>
               {numbers.map((num, i) => (
