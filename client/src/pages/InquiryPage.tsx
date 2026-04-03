@@ -100,16 +100,26 @@ export function InquiryPage() {
           <aside className="contact-card reveal">
             <h2>Need Immediate Help?</h2>
             <div className="contact-actions">
-              <a className="btn btn-soft" href="https://wa.me/919000012345?text=Hi%203pr%20across%2C%20need%20quote">
+              <a className="btn btn-soft" href="https://wa.me/9891029479?text=Hi%203pr%20across%2C%20need%20quote">
                 WhatsApp Quick Link
               </a>
-              <a className="btn btn-soft" href="tel:+919000012345">
+              <a className="btn btn-soft" href="tel:+919891029479">
                 Call Now
               </a>
             </div>
             <h3>Shop Location</h3>
-            <div className="map-placeholder" role="img" aria-label="Google map placeholder">
-              Google Maps Embed Placeholder
+            <div
+              className="map-placeholder"
+              role="img"
+              aria-label="Google map placeholder"
+            >
+              <iframe
+                src="https://www.google.com/maps?q=20+Block+H-1A+Sector+63+Noida+Uttar+Pradesh+201301&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0, borderRadius: "10px" }}
+                loading="lazy"
+              ></iframe>
             </div>
           </aside>
         </div>
