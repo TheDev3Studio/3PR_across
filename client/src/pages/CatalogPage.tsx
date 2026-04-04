@@ -85,37 +85,52 @@ export function CatalogPage() {
 
   return (
     <>
-      <style>{`
-        @keyframes shimmer-sweep {
-          0%   { background-position: -400px 0; }
-          100% { background-position:  400px 0; }
-        }
-        .shimmer {
-          border-radius: 6px;
-          background: linear-gradient(90deg, #e8e8e8 25%, #f5f5f5 50%, #e8e8e8 75%);
-          background-size: 800px 100%;
-          animation: shimmer-sweep 1.4s infinite linear;
-        }
-        @media (prefers-color-scheme: dark) {
-          .shimmer {
-            background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
-            background-size: 800px 100%;
-          }
-        }
-        .shimmer-card {
-          border-radius: 10px;
-          overflow: hidden;
-          border: 1px solid #eee;
-        }
-        @media (prefers-color-scheme: dark) {
-          .shimmer-card { border-color: #2a2a2a; }
-        }
-        .shimmer-image  { width: 100%; height: 200px; border-radius: 0; }
-        .shimmer-body   { padding: 14px; display: flex; flex-direction: column; gap: 10px; }
-        .shimmer-title  { height: 16px; width: 80%; }
-        .shimmer-subtitle { height: 13px; width: 55%; }
-        .shimmer-price  { height: 20px; width: 35%; margin-top: 4px; }
-      `}</style>
+<style>{`
+  @keyframes shimmer-sweep {
+    0%   { background-position: -400px 0; }
+    100% { background-position:  400px 0; }
+  }
+
+  .shimmer {
+    border-radius: 6px;
+    background: linear-gradient(
+      90deg,
+      #EFEBE9 25%,   /* very light brown */
+      #D7CCC8 50%,   /* soft highlight */
+      #EFEBE9 75%
+    );
+    background-size: 800px 100%;
+    animation: shimmer-sweep 1.6s infinite linear;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .shimmer {
+      background: linear-gradient(
+        90deg,
+        #6D4C41 25%,  /* soft dark brown */
+        #8D6E63 50%,  /* highlight */
+        #6D4C41 75%
+      );
+      background-size: 800px 100%;
+    }
+  }
+
+  .shimmer-card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #E0D6D2; /* light subtle border */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .shimmer-card { border-color: #5D4037; }
+  }
+
+  .shimmer-image  { width: 100%; height: 200px; border-radius: 0; }
+  .shimmer-body   { padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+  .shimmer-title  { height: 16px; width: 80%; }
+  .shimmer-subtitle { height: 13px; width: 55%; }
+  .shimmer-price  { height: 20px; width: 35%; margin-top: 4px; }
+`}</style>
 
       <SEO title="Product Catalogue" description="Browse catalogue with filters." path="/catalog" />
 
