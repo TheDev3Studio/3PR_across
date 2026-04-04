@@ -132,7 +132,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
 
         <div className="footer-bottom">
-          © {new Date().getFullYear()} 3pr across private limited• All rights reserved
+          © {new Date().getFullYear()} 3pr across private limited • All rights reserved
         </div>
       </footer>
 
