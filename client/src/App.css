@@ -410,14 +410,15 @@
 }
 
 .product-content h3 {
-  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 15px;
-  min-height: 2.8em;
+  /* min-height: 1.8em; */
 }
 
 .product-content p {
@@ -1208,5 +1209,380 @@
 
   .drawer-toggle {
     width: 100%;
+  }
+}
+/* WhatsApp icon button (small square) */
+.whatsapp-icon-btn {
+  background: #25d366;
+  color: white;
+  width: 42px;
+  min-width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.whatsapp-icon-btn svg {
+  font-size: 20px;
+}
+
+.whatsapp-icon-btn:hover {
+  background: #1ebe5d;
+}
+
+/* overall actions */
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+/* view details (secondary) */
+.view-btn {
+  width: 100%;
+  font-size: 13px;
+  padding: 10px;
+}
+
+/* row for inquiry + whatsapp */
+.inquiry-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* main CTA */
+.inquire-btn {
+  flex: 1;
+  font-size: 13px;
+  padding: 11px;
+}
+
+/* whatsapp button (premium small floating feel) */
+.whatsapp-float-btn {
+  background: #25d366;
+  color: white;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.whatsapp-float-btn svg {
+  font-size: 20px;
+}
+
+/* hover effect */
+.whatsapp-float-btn:hover {
+  background: #1ebe5d;
+  transform: scale(1.08);
+}
+
+/* mobile perfect fit */
+@media (max-width: 640px) {
+  .inquiry-row {
+    gap: 6px;
+  }
+
+  .whatsapp-float-btn {
+    width: 42px;
+    height: 42px;
+  }
+}
+/* ===== SEARCH BOX ===== */
+.search-box {
+  position: relative;
+  width: clamp(180px, 20vw, 240px);
+  flex: 0 0 auto;
+}
+
+/* icon */
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+  pointer-events: none;
+}
+
+/* input adjust */
+.search-box .search-input {
+  padding-left: 34px;
+}
+
+/* ===== RESPONSIVE (SAFE) ===== */
+@media (max-width: 640px) {
+  .catalog-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .catalog-toolbar > div:first-child {
+    width: 100%;
+  }
+
+  .catalog-toolbar .search-box {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .search-box .search-input {
+    width: 100%;
+  }
+
+  .drawer-toggle {
+    width: 100%;
+  }
+}
+/* ===== BASE ===== */
+.footer {
+  background: linear-gradient(180deg, #3f2813, #2e1d0c);
+  color: #f5ebd8;
+  margin-top: 50px;
+}
+
+/* ===== GRID ===== */
+.footer-grid {
+  padding: 42px 0 20px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.2fr;
+  gap: 32px;
+}
+
+/* ===== HEADINGS ===== */
+.footer h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff4dc;
+}
+
+.footer h5 {
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: #ffe7c2;
+}
+
+/* ===== BRAND ===== */
+.footer-brand p {
+  font-size: 14px;
+  opacity: 0.9;
+  max-width: 240px;
+  line-height: 1.5;
+}
+
+/* ===== CONTACT ===== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #f5ebd8;
+  font-size: 13px;
+  margin-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #ffcc80;
+  transform: translateX(3px);
+}
+
+/* ===== ADDRESS ===== */
+.address-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.25s ease;
+}
+
+.address-card:hover {
+  transform: translateY(-3px);
+  background: rgba(255,255,255,0.09);
+}
+
+.address-card strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.address-card p {
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* ===== BOTTOM ===== */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-address {
+    grid-column: span 2;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 640px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 30px 0 12px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .footer-brand p {
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
+.footer-highlights {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-highlights li {
+  font-size: 13px;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+/* toggle button hidden on desktop */
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    display: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 22px;
+  height: 2px;
+  background: #5a3b1c;
+  transition: 0.3s;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(6px);
+}
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-6px);
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
+
+    display: none;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-link {
+    text-align: center;
+    padding: 10px;
   }
 }
