@@ -39,7 +39,7 @@ export function InquiryPage() {
     <>
       <SEO
         title="Inquiry & Contact"
-        description="Send inquiry to 3pr across for product pricing and availability."
+        description="Send inquiry to 3PR Across Private Limited for product pricing and availability."
         path="/inquiry"
       />
       <section className="section">

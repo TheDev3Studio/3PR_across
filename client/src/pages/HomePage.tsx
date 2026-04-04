@@ -46,15 +46,15 @@ export function HomePage() {
   return (
     <>
       <SEO
-        title="3pr across Home"
-        description="3pr across is your trusted building materials partner for cement, hand tools, power tools, plumbing, and safety gear."
+        title="3PR Across Private Limited Home"
+        description="3PR Across Private Limited is your trusted building materials partner for cement, hand tools, power tools, plumbing, and safety gear."
         path="/"
         structuredData={structuredData}
       />
       <section className="hero-section">
         <div className="container hero-grid">
           <div>
-            <p className="eyebrow">3pr across Product Catalogue</p>
+            <p className="eyebrow">3PR Across Private Limited</p>
             <h1>India's Trusted Industrial Supply Partner</h1>
             <p className="hero-subtext">
               From welding accessories to hydraulic valves, power tools to safety gear — 388+ industrial products across 13 categories. Bulk supply from Noida & Bhojpur across India.

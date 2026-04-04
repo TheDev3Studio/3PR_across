@@ -9,7 +9,7 @@ interface SEOProps {
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
-const SITE_NAME = "3pr across";
+const SITE_NAME = "3pr Across Private Limited";
 const BASE_URL = import.meta.env.VITE_SITE_URL || "https://3pracross.example";
 const DEFAULT_IMAGE = `${BASE_URL}/og-cover.jpg`;
 

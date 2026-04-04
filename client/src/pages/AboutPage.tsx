@@ -46,10 +46,10 @@ export function AboutPage() {
       <section className="section section-soft">
         <div className="container about-hero">
           <article className="about-card reveal">
-            <p className="eyebrow">About 3pr across</p>
+            <p className="eyebrow">3PR Across Private Limited</p>
             <h1>Your Reliable Partner for Industrial Procurement</h1>
             <p>
-              3pr across is a GST-registered industrial supply company serving factories, contractors,
+              3PR Across Private Limited is a GST-registered industrial supply company serving factories, contractors,
               and maintenance teams with practical, site-ready products. From Noida and Bhojpur, we
               support procurement requirements across welding, tools, electrical, safety, hydraulic,
               and general industrial categories.

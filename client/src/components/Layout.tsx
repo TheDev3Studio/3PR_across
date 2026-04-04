@@ -75,7 +75,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container footer-grid">
 
           <div className="footer-brand">
-            <h4>3pr across</h4>
+            <h4>3PR Across Private Limited</h4>
             <p>India's Trusted Industrial Supply Partner</p>
 
             <ul className="footer-highlights">

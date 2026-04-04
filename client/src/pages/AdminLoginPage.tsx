@@ -26,7 +26,7 @@ export function AdminLoginPage() {
 
   return (
     <>
-      <SEO title="Admin Login" description="Admin login for 3pr across dashboard" path="/admin" />
+      <SEO title="Admin Login" description="Admin login for 3PR across Private Limited dashboard" path="/admin" />
       <section className="section">
         <div className="container narrow">
           <article className="admin-card reveal">
