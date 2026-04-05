@@ -85,7 +85,7 @@ export function CatalogPage() {
 
   return (
     <>
-<style>{`
+      <style>{`
   @keyframes shimmer-sweep {
     0%   { background-position: -400px 0; }
     100% { background-position:  400px 0; }
@@ -167,26 +167,13 @@ export function CatalogPage() {
               </div>
 
               <div className="search-box">
-                <FiSearch className="search-icon" />
+                <FiSearch size={16} style={{ flexShrink: 0 }} className="search-icon" />
                 <input
                   className="search-input"
                   placeholder="Search products"
                   value={searchInput}
                   onChange={(e) => setSearchInput(e.target.value)}
                 />
-                {searchInput && (
-                  <button
-                    onClick={clearSearch}
-                    style={{
-                      background: "none", border: "none", cursor: "pointer",
-                      display: "flex", alignItems: "center", padding: "0 8px",
-                      color: "inherit", opacity: 0.5
-                    }}
-                    aria-label="Clear search"
-                  >
-                    <FiX size={15} />
-                  </button>
-                )}
               </div>
 
               <button className="drawer-toggle" onClick={() => setDrawerOpen(true)}>
