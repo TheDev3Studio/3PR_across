@@ -1,11 +1,21 @@
 import { useEffect, useState } from "react";
 import { getMonthlyTraffic, registerVisit } from "../api/client";
 
+const SESSION_KEY = "buildmart_visitor_session";
+
 function getCurrentMonthKey() {
   const date = new Date();
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, "0");
   return `${year}-${month}`;
+}
+
+function getOrCreateSessionId() {
+  const existing = localStorage.getItem(SESSION_KEY);
+  if (existing) return existing;
+  const newId = `visitor-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+  localStorage.setItem(SESSION_KEY, newId);
+  return newId;
 }
 
 export function useVisitorCounter() {
@@ -16,7 +26,7 @@ export function useVisitorCounter() {
   });
 
   useEffect(() => {
-    const sessionId = `visitor-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+    const sessionId = getOrCreateSessionId();
 
     const registerAndSync = async () => {
       try {
