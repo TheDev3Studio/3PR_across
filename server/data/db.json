@@ -1358,6 +1358,19 @@
         "4 Inch Emery Wheel"
       ],
       "images": "/subcategory/hammers misc.png"
+    },
+    {
+      "id": 101,
+      "category": "Welding Accessories & Spare Parts ",
+      "name": "Gas Oriffis",
+      "slug": "gas-oriffis",
+      "variants": [
+        "Small (White Ceramic)",
+        "Large (Pink Ceramic)",
+        "Standard Size",
+        "High-Flow Type"
+      ],
+      "images": "/subcategory/gas orifice.png"
     }
   ],
   "inquiries": [],
@@ -1379,7 +1392,7 @@
       "visitor-1774469083274-t0he3htj"
     ],
     "uniqueCount": 2,
-    "totalVisits": 3,
-    "updatedAt": 1774986465858
+    "totalVisits": 35,
+    "updatedAt": 1775563088414
   }
 }
