@@ -646,6 +646,19 @@
     },
     {
       "id": 48,
+      "category": "Electrical Items",
+      "name": "Limit Switch",
+      "slug": "networking-lighting",
+      "variants": [
+        "D-Link 24 Port Switch",
+        "LED Flood Light",
+        "LED Street Light",
+        "MT 3X19.05 Tool Holder Socket"
+      ],
+      "images": "/subcategory/networking lighting.png"
+    },
+    {
+      "id": 48,
       "category": "Tools & TCT Core Cutter & Drill Bits",
       "name": "Carbide Cutting Tools",
       "slug": "carbide-cutting-tools",
@@ -1392,7 +1405,7 @@
       "visitor-1774469083274-t0he3htj"
     ],
     "uniqueCount": 2,
-    "totalVisits": 43,
-    "updatedAt": 1775564471845
+    "totalVisits": 99,
+    "updatedAt": 1775723724299
   }
 }
