@@ -353,7 +353,7 @@
         "Motor Housing",
         "Grinder M/C Bosch"
       ],
-      "images": "/subcategory/ag5 grinder spare parts.png"
+      "images": "/subcategory/ag4 grinder spare parts.png"
     },
     {
       "id": 26,
@@ -398,13 +398,16 @@
     {
       "id": 29,
       "category": "Power Tools & Spare Parts",
-      "name": "Filled Coils",
-      "slug": "filled-coils",
+      "name": "Drill Machine",
+      "slug": "drill-machine",
       "variants": [
-        "General Filled Coil",
-        "Filled Coil for Chopsaw M/C"
+        "Bosch",
+        "DeWalt",
+        "Makita",
+        "Hitachi",
+        "Black/Decker"
       ],
-      "images": "/subcategory/filled coils.png"
+      "images": "/subcategory/drill machine.png"
     },
     {
       "id": 30,
@@ -968,6 +971,17 @@
     },
     {
       "id": 73,
+      "category": "Hydraulic Items & Valves",
+      "name": "Hydraulic Hose Pipe",
+      "slug": "hydraulic-hose-pipe",
+      "variants": [
+        "Hydraulic & Pneumatic Cylinders",
+        "Dynaflex Hydraulic Hose Pipes"
+      ],
+      "images": "/subcategory/hydraulic hose pipe.png"
+    },
+    {
+      "id": 74,
       "category": "Measuring & Testing Instruments",
       "name": "Digital Vernier Calipers",
       "slug": "digital-vernier-calipers",
@@ -981,7 +995,7 @@
       "images": "/subcategory/digital vernier calipers.png"
     },
     {
-      "id": 74,
+      "id": 75,
       "category": "Measuring & Testing Instruments",
       "name": "Micrometers",
       "slug": "micrometers",
@@ -992,7 +1006,7 @@
       "images": "/subcategory/micrometers.png"
     },
     {
-      "id": 75,
+      "id": 76,
       "category": "Measuring & Testing Instruments",
       "name": "Dial Gauge",
       "slug": "dial-gauge",
@@ -1002,7 +1016,7 @@
       "images": "/subcategory/dial gauge.png"
     },
     {
-      "id": 76,
+      "id": 77,
       "category": "Measuring & Testing Instruments",
       "name": "Clamp Meters & Multimeters",
       "slug": "clamp-meters-multimeters",
@@ -1014,7 +1028,7 @@
       "images": "/subcategory/clamp meters multimeters.png"
     },
     {
-      "id": 77,
+      "id": 78,
       "category": "Measuring & Testing Instruments",
       "name": "Specialty Test Meters",
       "slug": "specialty-test-meters",
@@ -1028,7 +1042,7 @@
       "images": "/subcategory/specialty test meters.png"
     },
     {
-      "id": 78,
+      "id": 79,
       "category": "Measuring & Testing Instruments",
       "name": "Spirit Levels",
       "slug": "spirit-levels",
@@ -1039,7 +1053,7 @@
       "images": "/subcategory/spirit levels.png"
     },
     {
-      "id": 79,
+      "id": 80,
       "category": "Measuring & Testing Instruments",
       "name": "Gauges & Tapes",
       "slug": "gauges-tapes",
@@ -1053,7 +1067,7 @@
       "images": "/subcategory/gauges tapes.png"
     },
     {
-      "id": 80,
+      "id": 81,
       "category": "Nut Bolts & Washers",
       "name": "Socket & Allen Bolts",
       "slug": "socket-allen-bolts",
@@ -1068,7 +1082,7 @@
       "images": "/subcategory/socket allen bolts.png"
     },
     {
-      "id": 81,
+      "id": 82,
       "category": "Nut Bolts & Washers",
       "name": "Hex Bolt, Nut & Washer Sets",
       "slug": "hex-bolt-nut-washer",
@@ -1082,7 +1096,7 @@
       "images": "/subcategory/hex bolt nut washer.png"
     },
     {
-      "id": 82,
+      "id": 83,
       "category": "Nut Bolts & Washers",
       "name": "Nuts & Washers",
       "slug": "nuts-washers",
@@ -1094,7 +1108,7 @@
       "images": "/subcategory/nuts washers.png"
     },
     {
-      "id": 83,
+      "id": 84,
       "category": "Belts & Coupling",
       "name": "V-Belt Pulleys",
       "slug": "v-belt-pulleys",
@@ -1113,7 +1127,7 @@
       "images": "/subcategory/v belt pulleys.png"
     },
     {
-      "id": 84,
+      "id": 85,
       "category": "Belts & Coupling",
       "name": "V Pulley",
       "slug": "v-pulley",
@@ -1123,7 +1137,7 @@
       "images": "/subcategory/v pulley.png"
     },
     {
-      "id": 85,
+      "id": 86,
       "category": "Belts & Coupling",
       "name": "Rubber Timing Belts",
       "slug": "rubber-timing-belts",
@@ -1140,7 +1154,7 @@
       "images": "/subcategory/rubber timing belts.png"
     },
     {
-      "id": 86,
+      "id": 87,
       "category": "Belts & Coupling",
       "name": "Couplings",
       "slug": "couplings",
@@ -1160,7 +1174,7 @@
       "images": "/subcategory/couplings.png"
     },
     {
-      "id": 87,
+      "id": 88,
       "category": "Bearing",
       "name": "Bearings by Brand",
       "slug": "bearings-by-brand",
@@ -1173,7 +1187,7 @@
       "images": "/subcategory/bearings by brand.png"
     },
     {
-      "id": 88,
+      "id": 89,
       "category": "Bearing",
       "name": "Bearings by Type",
       "slug": "bearings-by-type",
@@ -1185,7 +1199,7 @@
       "images": "/subcategory/bearings by type.png"
     },
     {
-      "id": 89,
+      "id": 90,
       "category": "Oil Seal",
       "name": "Oil Seals",
       "slug": "oil-seals",
@@ -1203,7 +1217,7 @@
       "images": "/subcategory/oil seals.png"
     },
     {
-      "id": 90,
+      "id": 91,
       "category": "Oil Seal",
       "name": "Gaskets & Clips",
       "slug": "gaskets-clips",
@@ -1215,7 +1229,7 @@
       "images": "/subcategory/gaskets clips.png"
     },
     {
-      "id": 91,
+      "id": 92,
       "category": "General Items",
       "name": "Steel Tapes",
       "slug": "steel-tapes",
@@ -1229,7 +1243,7 @@
       "images": "/subcategory/steel tapes.png"
     },
     {
-      "id": 92,
+      "id": 93,
       "category": "General Items",
       "name": "Cable Ties",
       "slug": "cable-ties",
@@ -1246,7 +1260,7 @@
       "images": "/subcategory/cable ties.png"
     },
     {
-      "id": 93,
+      "id": 94,
       "category": "General Items",
       "name": "SS Jublee Clamps",
       "slug": "ss-jublee-clamps",
@@ -1259,7 +1273,7 @@
       "images": "/subcategory/ss jublee clamps.png"
     },
     {
-      "id": 94,
+      "id": 95,
       "category": "General Items",
       "name": "Nipples",
       "slug": "nipples",
@@ -1271,7 +1285,7 @@
       "images": "/subcategory/nipples.png"
     },
     {
-      "id": 95,
+      "id": 96,
       "category": "General Items",
       "name": "Pneumatics",
       "slug": "pneumatics",
@@ -1286,7 +1300,7 @@
       "images": "/subcategory/pneumatics.png"
     },
     {
-      "id": 96,
+      "id": 97,
       "category": "General Items",
       "name": "Tapes & Adhesives",
       "slug": "tapes-adhesives",
@@ -1298,7 +1312,7 @@
       "images": "/subcategory/tapes adhesives.png"
     },
     {
-      "id": 97,
+      "id": 98,
       "category": "General Items",
       "name": "Workshop Misc",
       "slug": "workshop-misc",
@@ -1315,7 +1329,7 @@
       "images": "/subcategory/workshop misc.png"
     },
     {
-      "id": 98,
+      "id": 99,
       "category": "General Items",
       "name": "Stationery",
       "slug": "stationery",
@@ -1328,7 +1342,7 @@
       "images": "/subcategory/stationery.png"
     },
     {
-      "id": 99,
+      "id": 100,
       "category": "Hand Tools",
       "name": "Wrenches & Spanners",
       "slug": "wrenches-spanners",
@@ -1346,7 +1360,7 @@
       "images": "/subcategory/wrenches spanners.png"
     },
     {
-      "id": 100,
+      "id": 101,
       "category": "Hand Tools",
       "name": "Pliers & Cutters",
       "slug": "pliers-cutters",
@@ -1359,7 +1373,7 @@
       "images": "/subcategory/pliers cutters.png"
     },
     {
-      "id": 101,
+      "id": 102,
       "category": "Hand Tools",
       "name": "Allen Keys & Screw Drivers",
       "slug": "allen-keys-screwdrivers",
@@ -1372,7 +1386,7 @@
       "images": "/subcategory/allen keys screwdrivers.png"
     },
     {
-      "id": 102,
+      "id": 103,
       "category": "Hand Tools",
       "name": "Hammers & Misc",
       "slug": "hammers-misc",
@@ -1383,21 +1397,6 @@
         "4 Inch Emery Wheel"
       ],
       "images": "/subcategory/hammers misc.png"
-    },
-    {
-      "id": 103,
-      "category": "Power Tools & Spare Parts",
-      "name": "Drill Machine",
-      "slug": "drill-machine",
-      "featured": true,
-      "variants": [
-        "Bosch",
-        "DeWalt",
-        "Makita",
-        "Hitachi",
-        "Black+Decker",
-      ],
-      "images": "/subcategory/ag7 grinder spare parts.png"
     }
   ],
   "inquiries": [],
@@ -1419,7 +1418,7 @@
       "visitor-1774469083274-t0he3htj"
     ],
     "uniqueCount": 2,
-    "totalVisits": 193,
-    "updatedAt": 1775734420410
+    "totalVisits": 53,
+    "updatedAt": 1775736651407
   }
 }
