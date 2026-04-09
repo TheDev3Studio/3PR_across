@@ -1383,6 +1383,21 @@
         "4 Inch Emery Wheel"
       ],
       "images": "/subcategory/hammers misc.png"
+    },
+    {
+      "id": 103,
+      "category": "Power Tools & Spare Parts",
+      "name": "Drill Machine",
+      "slug": "drill-machine",
+      "featured": true,
+      "variants": [
+        "Bosch",
+        "DeWalt",
+        "Makita",
+        "Hitachi",
+        "Black+Decker",
+      ],
+      "images": "/subcategory/ag7 grinder spare parts.png"
     }
   ],
   "inquiries": [],
