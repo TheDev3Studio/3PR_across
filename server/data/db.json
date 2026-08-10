@@ -1412,13 +1412,12 @@
     "total_categories": 13
   },
   "traffic": {
-    "monthKey": "2026-04",
+    "monthKey": "2026-08",
     "uniqueSessions": [
-      "visitor-1774730692973-1dxgow5z",
-      "visitor-1774469083274-t0he3htj"
+      "visitor-1786384627647-whuzka91"
     ],
-    "uniqueCount": 2,
-    "totalVisits": 67,
-    "updatedAt": 1775810396458
+    "uniqueCount": 1,
+    "totalVisits": 2,
+    "updatedAt": 1786384628082
   }
 }
